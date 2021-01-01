@@ -30,7 +30,7 @@ var YYZtoCUN = {
     originDescription: "Toronto",
 
 };
-var CUNtoYYC = {
+var CUNtoYYZ = {
     root: "https://www.google.com/flights?hl=en#flt=",
     origin: "CUN.", // montreal is /m/052p7 , new york is /m/02_286, toronto is /m/0h7h6
     destination: "YYZ.", // montreal is /m/052p7. , new york is /m/02_286. , toronto is /m/0h7h6.
@@ -210,9 +210,9 @@ var CUNtoCLE = {
     originDescription: "Cancun",
 
 };
-var DIAtoCUN = {
+var DENtoCUN = {
     root: "https://www.google.com/flights?hl=en#flt=",
-    origin: "DIA.", // montreal is /m/052p7 , new york is /m/02_286, toronto is /m/0h7h6
+    origin: "DEN.", // montreal is /m/052p7 , new york is /m/02_286, toronto is /m/0h7h6
     destination: "CUN.", // montreal is /m/052p7. , new york is /m/02_286. , toronto is /m/0h7h6.
     queryDate: `${yyyy}-${mm}-${dd}`, //YYYY-MM-DD
     oneCarryOnBagAndCurrency: ";b:1;c:USD", // CAD is ;c:CAD , USD is ;c:USD
@@ -222,10 +222,10 @@ var DIAtoCUN = {
     originDescription: "Denver",
 
 };
-var CUNtoDIA = {
+var CUNtoDEN = {
     root: "https://www.google.com/flights?hl=en#flt=",
     origin: "CUN.", // montreal is /m/052p7 , new york is /m/02_286, toronto is /m/0h7h6
-    destination: "DIA.", // montreal is /m/052p7. , new york is /m/02_286. , toronto is /m/0h7h6.
+    destination: "DEN.", // montreal is /m/052p7. , new york is /m/02_286. , toronto is /m/0h7h6.
     queryDate: `${yyyy}-${mm}-${dd}`, //YYYY-MM-DD
     oneCarryOnBagAndCurrency: ";b:1;c:USD", // CAD is ;c:CAD , USD is ;c:USD
     fareClass: ";e:1;so:1;sd:1;t:f;tt:o", // economy is ";e:1;so:1;sd:1;t:f;tt:o" , business is ";e:1;sc:b;so:1;sd:1;t:f;tt:o"
@@ -312,106 +312,97 @@ var CUNtoBWI = {
 
 
 //Orlando starts here
-  var allDestinations = [YYZtoCUN];
-//  var allDestinations = [CUNtoYYC];
-//  var allDestinations = [YULtoCUN];
-//  var allDestinations = [CUNtoYUL];
-//  var allDestinations = [YVRtoCUN];
-//  var allDestinations = [CUNtoYVR];
-//  var allDestinations = [ORDtoCUN];
-//  var allDestinations = [CUNtoORD];
-//  var allDestinations = [PHLtoCUN];
-//  var allDestinations = [CUNtoPHL];
-//  var allDestinations = [JFKtoCUN];
-//  var allDestinations = [CUNtoJFK];
-//  var allDestinations = [MSPtoCUN];
-//  var allDestinations = [CUNtoMSP];
-//  var allDestinations = [CLEtoCUN];
-//  var allDestinations = [CUNtoCLE];
-//  var allDestinations = [DIAtoCUN];
-//  var allDestinations = [CUNtoDIA];
-//  var allDestinations = [EWRtoCUN];
-//  var allDestinations = [CUNtoEWR];
-//  var allDestinations = [BOStoCUN];
-//  var allDestinations = [CUNtoBOS];
-//  var allDestinations = [BWItoCUN];
-//  var allDestinations = [CUNtoBWI];
+var allDestinations = [];
+
 
 
 var allDatesAndDestinations = [];
 var readyToTriggerPuppteer = 0;
 
 
-for (var index in allDestinations) {
+var loop = {
+    mainLoop: function(city) {
+
+        allDestinations = [];
+        allDestinations = [city];
+        allDatesAndDestinations = [];
+
+            for (var index in allDestinations) {
 
 
-    queryOptions = allDestinations[index];
+                queryOptions = allDestinations[index];
+            
+                // Control the number of days to gather information for.
+                var numberOfDays = 2;//93;
+            
+                for (var currentDay = 0; currentDay < numberOfDays; currentDay++) {
+            
+                    var newDate = moment()
+                        .add(currentDay, "days")
+                        .format("YYYY-MM-DD");
+            
+                        var newDay = moment()
+                        .add(currentDay, "days")
+                        .format("DD");
+            
+                        var newYear = moment()
+                        .add(currentDay, "days")
+                        .format("YYYY");
+            
+                        var newMonth = moment()
+                        .add(currentDay, "days")
+                        .format("MM");
+            
+                    var a = allDestinations[index].root;
+                    var b = allDestinations[index].origin;
+                    var c = allDestinations[index].destination;
+                    var d = newDate;
+                    var e = allDestinations[index].oneCarryOnBagAndCurrency;
+                    var f = allDestinations[index].fareClass;
+                    var g = allDestinations[index].fareClassDescription;
+                    var h = allDestinations[index].destinationDescription;
+                    var i = allDestinations[index].originDescription;
+                    var j = newDay;
+                    var k = newMonth;
+                    var l = newYear;
+            
+            
+                    allDatesAndDestinations.push({
+                        root: a,
+                        origin: b, // montreal is /m/052p7 , new york is /m/02_286, toronto is /m/0h7h6
+                        destination: c, // montreal is /m/052p7. , new york is /m/02_286. , toronto is /m/0h7h6.
+                        queryDate: d, //YYYY-MM-DD
+                        oneCarryOnBagAndCurrency: e, // CAD is ;c:CAD , USD is ;c:USD
+                        fareClass: f, // economy is ";e:1;so:1;sd:1;t:f;tt:o" , business is ";e:1;sc:b;so:1;sd:1;t:f;tt:o"
+                        fareClassDescription: g,
+                        destinationDescription: h,
+                        originDescription: i,
+                        dBDay: j,
+                        dBMonth: k,
+                        dBYear: l,
+                    });
+            
+            
+                    if ((currentDay + 1) === numberOfDays) {
+                        //readyToTriggerPuppteer++;
+            
+            
+            
+                        //if (readyToTriggerPuppteer === 16) {
+                            getFlights();
+                        //}
+            
+                    }
+            
+                }
+            }
 
-    // Control the number of days to gather information for.
-    var numberOfDays = 93;
-
-    for (var currentDay = 0; currentDay < numberOfDays; currentDay++) {
-
-        var newDate = moment()
-            .add(currentDay, "days")
-            .format("YYYY-MM-DD");
-
-            var newDay = moment()
-            .add(currentDay, "days")
-            .format("DD");
-
-            var newYear = moment()
-            .add(currentDay, "days")
-            .format("YYYY");
-
-            var newMonth = moment()
-            .add(currentDay, "days")
-            .format("MM");
-
-        var a = allDestinations[index].root;
-        var b = allDestinations[index].origin;
-        var c = allDestinations[index].destination;
-        var d = newDate;
-        var e = allDestinations[index].oneCarryOnBagAndCurrency;
-        var f = allDestinations[index].fareClass;
-        var g = allDestinations[index].fareClassDescription;
-        var h = allDestinations[index].destinationDescription;
-        var i = allDestinations[index].originDescription;
-        var j = newDay;
-        var k = newMonth;
-        var l = newYear;
-
-
-        allDatesAndDestinations.push({
-            root: a,
-            origin: b, // montreal is /m/052p7 , new york is /m/02_286, toronto is /m/0h7h6
-            destination: c, // montreal is /m/052p7. , new york is /m/02_286. , toronto is /m/0h7h6.
-            queryDate: d, //YYYY-MM-DD
-            oneCarryOnBagAndCurrency: e, // CAD is ;c:CAD , USD is ;c:USD
-            fareClass: f, // economy is ";e:1;so:1;sd:1;t:f;tt:o" , business is ";e:1;sc:b;so:1;sd:1;t:f;tt:o"
-            fareClassDescription: g,
-            destinationDescription: h,
-            originDescription: i,
-            dBDay: j,
-            dBMonth: k,
-            dBYear: l,
-        });
-
-
-        if ((currentDay + 1) === numberOfDays) {
-            readyToTriggerPuppteer++;
-
-
-
-            //if (readyToTriggerPuppteer === 16) {
-                getFlights();
-            //}
-
-        }
-
-    }
+  
+}
 }
 
+//Start function with this call
+loop.mainLoop(YYZtoCUN)
 
 
 async function getFlights() {
@@ -504,7 +495,7 @@ async function getFlights() {
             // Trim the word for flight duration
             var duration = flightStopDuration.substring(0, flightStopDuration.indexOf("min")).concat("min");
 
-            //var flightStopDurationInfo = flightStops ? duration : ""
+            var flightStopDurationInfo = flightStops ? duration : ""
 
             var dayOfScheduledFlight = await (allDatesAndDestinations[index].queryDate);
 
@@ -517,7 +508,7 @@ async function getFlights() {
                 arrivalAirport,
                 departureAirport,
                 flightStops,
-                //flightStopDurationInfo,
+                flightStopDurationInfo,
                 dayOfScheduledFlight,
                 fareClassDescription,
                 destinationDescription,
@@ -545,5 +536,58 @@ async function getFlights() {
     /* eslint-enable no-await-in-loop */
 
     console.log('Finished!');
-    return true;
+    readyToTriggerPuppteer++
+    //loop through all destinations
+    switch(readyToTriggerPuppteer) {
+        case 0:
+            return loop.mainLoop(YYZtoCUN);
+        case 1:
+            return loop.mainLoop(CUNtoYYZ);
+        case 2:
+            return loop.mainLoop(YULtoCUN);
+        case 3:
+            return loop.mainLoop(CUNtoYUL);
+        case 4:
+            return loop.mainLoop(YVRtoCUN);
+        case 5:
+            return loop.mainLoop(CUNtoYVR);
+        case 6:
+            return loop.mainLoop(ORDtoCUN);
+        case 7:
+            return loop.mainLoop(CUNtoORD);
+        case 8:
+            return loop.mainLoop(PHLtoCUN);
+        case 9:
+            return loop.mainLoop(CUNtoPHL);
+        case 10:
+            return loop.mainLoop(JFKtoCUN);
+        case 11:
+            return loop.mainLoop(CUNtoJFK);
+        case 12:
+            return loop.mainLoop(MSPtoCUN);
+        case 13:
+            return loop.mainLoop(CUNtoMSP);
+        case 14:
+            return loop.mainLoop(CLEtoCUN);
+        case 15:
+            return loop.mainLoop(CUNtoCLE);
+        case 16:
+            return loop.mainLoop(DENtoCUN);
+        case 17:
+            return loop.mainLoop(CUNtoDEN);
+        case 18:
+            return loop.mainLoop(EWRtoCUN);
+        case 19:
+            return loop.mainLoop(CUNtoEWR);
+        case 20:
+            return loop.mainLoop(BOStoCUN);
+        case 21:
+            return loop.mainLoop(CUNtoBOS);
+        case 22:
+            return loop.mainLoop(BWItoCUN);
+        case 23:
+            return loop.mainLoop(CUNtoBWI);
+        default:
+            return true;
+      }
 }
