@@ -333,7 +333,7 @@ var loop = {
                 queryOptions = allDestinations[index];
             
                 // Control the number of days to gather information for.
-                var numberOfDays = 2;//93;
+                var numberOfDays = 93;
             
                 for (var currentDay = 0; currentDay < numberOfDays; currentDay++) {
             
@@ -440,9 +440,13 @@ async function getFlights() {
                 waitUntil: "networkidle0",
             });
 
-            var allFlights = await page.$$("ol.VKb8lb.H4aYKc > li");
+            var allFlights = await page.$$("div.VKb8lb.H4aYKc > div");
             console.log("allFlights: ", allFlights.length);
-             //const flightName = await allFlights[0].$eval("span", span => span.textContent);
+
+            
+            
+
+             const flightName = await allFlights[0].$eval("span", span => span.textContent);
 
             // this will provide the flight logo
             // var flightAirlineLogo = await page.$('.x8klId > img', element => element.getAttribute('src'));
@@ -520,6 +524,9 @@ async function getFlights() {
             flightResultsRef.update({
                 flightResults
             });
+
+
+            
 
             console.log(flightResults);
             console.log('\n\n\n');
