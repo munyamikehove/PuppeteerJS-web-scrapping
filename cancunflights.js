@@ -306,6 +306,366 @@ var CUNtoBWI = {
     originDescription: "Cancun",
 
 };
+var ATLtoCUN = {
+    root: "https://www.google.com/flights?hl=en#flt=",
+    origin: "ATL.", // montreal is /m/052p7 , new york is /m/02_286, toronto is /m/0h7h6
+    destination: "CUN.", // montreal is /m/052p7. , new york is /m/02_286. , toronto is /m/0h7h6.
+    queryDate: `${yyyy}-${mm}-${dd}`, //YYYY-MM-DD
+    oneCarryOnBagAndCurrency: ";b:1;c:USD", // CAD is ;c:CAD , USD is ;c:USD
+    fareClass: ";e:1;so:1;sd:1;t:f;tt:o", // economy is ";e:1;so:1;sd:1;t:f;tt:o" , business is ";e:1;sc:b;so:1;sd:1;t:f;tt:o"
+    fareClassDescription: "economy",
+    destinationDescription: "Cancun",
+    originDescription: "Atlanta",
+
+};
+var CUNtoATL = {
+    root: "https://www.google.com/flights?hl=en#flt=",
+    origin: "CUN.", // montreal is /m/052p7 , new york is /m/02_286, toronto is /m/0h7h6
+    destination: "ATL.", // montreal is /m/052p7. , new york is /m/02_286. , toronto is /m/0h7h6.
+    queryDate: `${yyyy}-${mm}-${dd}`, //YYYY-MM-DD
+    oneCarryOnBagAndCurrency: ";b:1;c:USD", // CAD is ;c:CAD , USD is ;c:USD
+    fareClass: ";e:1;so:1;sd:1;t:f;tt:o", // economy is ";e:1;so:1;sd:1;t:f;tt:o" , business is ";e:1;sc:b;so:1;sd:1;t:f;tt:o"
+    fareClassDescription: "economy",
+    destinationDescription: "Atlanta",
+    originDescription: "Cancun",
+
+};
+var DFWtoCUN = {
+    root: "https://www.google.com/flights?hl=en#flt=",
+    origin: "DFW.", // montreal is /m/052p7 , new york is /m/02_286, toronto is /m/0h7h6
+    destination: "CUN.", // montreal is /m/052p7. , new york is /m/02_286. , toronto is /m/0h7h6.
+    queryDate: `${yyyy}-${mm}-${dd}`, //YYYY-MM-DD
+    oneCarryOnBagAndCurrency: ";b:1;c:USD", // CAD is ;c:CAD , USD is ;c:USD
+    fareClass: ";e:1;so:1;sd:1;t:f;tt:o", // economy is ";e:1;so:1;sd:1;t:f;tt:o" , business is ";e:1;sc:b;so:1;sd:1;t:f;tt:o"
+    fareClassDescription: "economy",
+    destinationDescription: "Cancun",
+    originDescription: "Dallas",
+
+};
+var CUNtoDFW = {
+    root: "https://www.google.com/flights?hl=en#flt=",
+    origin: "CUN.", // montreal is /m/052p7 , new york is /m/02_286, toronto is /m/0h7h6
+    destination: "DFW.", // montreal is /m/052p7. , new york is /m/02_286. , toronto is /m/0h7h6.
+    queryDate: `${yyyy}-${mm}-${dd}`, //YYYY-MM-DD
+    oneCarryOnBagAndCurrency: ";b:1;c:USD", // CAD is ;c:CAD , USD is ;c:USD
+    fareClass: ";e:1;so:1;sd:1;t:f;tt:o", // economy is ";e:1;so:1;sd:1;t:f;tt:o" , business is ";e:1;sc:b;so:1;sd:1;t:f;tt:o"
+    fareClassDescription: "economy",
+    destinationDescription: "Dallas",
+    originDescription: "Cancun",
+
+};
+var YYCtoCUN = {
+    root: "https://www.google.com/flights?hl=en#flt=",
+    origin: "YYC.", // montreal is /m/052p7 , new york is /m/02_286, toronto is /m/0h7h6
+    destination: "CUN.", // montreal is /m/052p7. , new york is /m/02_286. , toronto is /m/0h7h6.
+    queryDate: `${yyyy}-${mm}-${dd}`, //YYYY-MM-DD
+    oneCarryOnBagAndCurrency: ";b:1;c:USD", // CAD is ;c:CAD , USD is ;c:USD
+    fareClass: ";e:1;so:1;sd:1;t:f;tt:o", // economy is ";e:1;so:1;sd:1;t:f;tt:o" , business is ";e:1;sc:b;so:1;sd:1;t:f;tt:o"
+    fareClassDescription: "economy",
+    destinationDescription: "Cancun",
+    originDescription: "Calgary",
+
+};
+var CUNtoYYC = {
+    root: "https://www.google.com/flights?hl=en#flt=",
+    origin: "CUN.", // montreal is /m/052p7 , new york is /m/02_286, toronto is /m/0h7h6
+    destination: "YYC.", // montreal is /m/052p7. , new york is /m/02_286. , toronto is /m/0h7h6.
+    queryDate: `${yyyy}-${mm}-${dd}`, //YYYY-MM-DD
+    oneCarryOnBagAndCurrency: ";b:1;c:USD", // CAD is ;c:CAD , USD is ;c:USD
+    fareClass: ";e:1;so:1;sd:1;t:f;tt:o", // economy is ";e:1;so:1;sd:1;t:f;tt:o" , business is ";e:1;sc:b;so:1;sd:1;t:f;tt:o"
+    fareClassDescription: "economy",
+    destinationDescription: "Calgary",
+    originDescription: "Cancun",
+
+};
+var SEAtoCUN = {
+    root: "https://www.google.com/flights?hl=en#flt=",
+    origin: "SEA.", // montreal is /m/052p7 , new york is /m/02_286, toronto is /m/0h7h6
+    destination: "CUN.", // montreal is /m/052p7. , new york is /m/02_286. , toronto is /m/0h7h6.
+    queryDate: `${yyyy}-${mm}-${dd}`, //YYYY-MM-DD
+    oneCarryOnBagAndCurrency: ";b:1;c:USD", // CAD is ;c:CAD , USD is ;c:USD
+    fareClass: ";e:1;so:1;sd:1;t:f;tt:o", // economy is ";e:1;so:1;sd:1;t:f;tt:o" , business is ";e:1;sc:b;so:1;sd:1;t:f;tt:o"
+    fareClassDescription: "economy",
+    destinationDescription: "Cancun",
+    originDescription: "Seattle",
+
+};
+var CUNtoSEA = {
+    root: "https://www.google.com/flights?hl=en#flt=",
+    origin: "CUN.", // montreal is /m/052p7 , new york is /m/02_286, toronto is /m/0h7h6
+    destination: "SEA.", // montreal is /m/052p7. , new york is /m/02_286. , toronto is /m/0h7h6.
+    queryDate: `${yyyy}-${mm}-${dd}`, //YYYY-MM-DD
+    oneCarryOnBagAndCurrency: ";b:1;c:USD", // CAD is ;c:CAD , USD is ;c:USD
+    fareClass: ";e:1;so:1;sd:1;t:f;tt:o", // economy is ";e:1;so:1;sd:1;t:f;tt:o" , business is ";e:1;sc:b;so:1;sd:1;t:f;tt:o"
+    fareClassDescription: "economy",
+    destinationDescription: "Seattle",
+    originDescription: "Cancun",
+
+};
+var DTWtoCUN = {
+    root: "https://www.google.com/flights?hl=en#flt=",
+    origin: "DTW.", // montreal is /m/052p7 , new york is /m/02_286, toronto is /m/0h7h6
+    destination: "CUN.", // montreal is /m/052p7. , new york is /m/02_286. , toronto is /m/0h7h6.
+    queryDate: `${yyyy}-${mm}-${dd}`, //YYYY-MM-DD
+    oneCarryOnBagAndCurrency: ";b:1;c:USD", // CAD is ;c:CAD , USD is ;c:USD
+    fareClass: ";e:1;so:1;sd:1;t:f;tt:o", // economy is ";e:1;so:1;sd:1;t:f;tt:o" , business is ";e:1;sc:b;so:1;sd:1;t:f;tt:o"
+    fareClassDescription: "economy",
+    destinationDescription: "Cancun",
+    originDescription: "Detroit",
+
+};
+var CUNtoDTW = {
+    root: "https://www.google.com/flights?hl=en#flt=",
+    origin: "CUN.", // montreal is /m/052p7 , new york is /m/02_286, toronto is /m/0h7h6
+    destination: "DTW.", // montreal is /m/052p7. , new york is /m/02_286. , toronto is /m/0h7h6.
+    queryDate: `${yyyy}-${mm}-${dd}`, //YYYY-MM-DD
+    oneCarryOnBagAndCurrency: ";b:1;c:USD", // CAD is ;c:CAD , USD is ;c:USD
+    fareClass: ";e:1;so:1;sd:1;t:f;tt:o", // economy is ";e:1;so:1;sd:1;t:f;tt:o" , business is ";e:1;sc:b;so:1;sd:1;t:f;tt:o"
+    fareClassDescription: "economy",
+    destinationDescription: "Detroit",
+    originDescription: "Cancun",
+
+};
+var FATtoCUN = {
+    root: "https://www.google.com/flights?hl=en#flt=",
+    origin: "FAT.", // montreal is /m/052p7 , new york is /m/02_286, toronto is /m/0h7h6
+    destination: "CUN.", // montreal is /m/052p7. , new york is /m/02_286. , toronto is /m/0h7h6.
+    queryDate: `${yyyy}-${mm}-${dd}`, //YYYY-MM-DD
+    oneCarryOnBagAndCurrency: ";b:1;c:USD", // CAD is ;c:CAD , USD is ;c:USD
+    fareClass: ";e:1;so:1;sd:1;t:f;tt:o", // economy is ";e:1;so:1;sd:1;t:f;tt:o" , business is ";e:1;sc:b;so:1;sd:1;t:f;tt:o"
+    fareClassDescription: "economy",
+    destinationDescription: "Cancun",
+    originDescription: "Fresno",
+
+};
+var CUNtoFAT = {
+    root: "https://www.google.com/flights?hl=en#flt=",
+    origin: "CUN.", // montreal is /m/052p7 , new york is /m/02_286, toronto is /m/0h7h6
+    destination: "FAT.", // montreal is /m/052p7. , new york is /m/02_286. , toronto is /m/0h7h6.
+    queryDate: `${yyyy}-${mm}-${dd}`, //YYYY-MM-DD
+    oneCarryOnBagAndCurrency: ";b:1;c:USD", // CAD is ;c:CAD , USD is ;c:USD
+    fareClass: ";e:1;so:1;sd:1;t:f;tt:o", // economy is ";e:1;so:1;sd:1;t:f;tt:o" , business is ";e:1;sc:b;so:1;sd:1;t:f;tt:o"
+    fareClassDescription: "economy",
+    destinationDescription: "Fresno",
+    originDescription: "Cancun",
+
+};
+var IAHtoCUN = {
+    root: "https://www.google.com/flights?hl=en#flt=",
+    origin: "IAH.", // montreal is /m/052p7 , new york is /m/02_286, toronto is /m/0h7h6
+    destination: "CUN.", // montreal is /m/052p7. , new york is /m/02_286. , toronto is /m/0h7h6.
+    queryDate: `${yyyy}-${mm}-${dd}`, //YYYY-MM-DD
+    oneCarryOnBagAndCurrency: ";b:1;c:USD", // CAD is ;c:CAD , USD is ;c:USD
+    fareClass: ";e:1;so:1;sd:1;t:f;tt:o", // economy is ";e:1;so:1;sd:1;t:f;tt:o" , business is ";e:1;sc:b;so:1;sd:1;t:f;tt:o"
+    fareClassDescription: "economy",
+    destinationDescription: "Cancun",
+    originDescription: "Houston",
+
+};
+var CUNtoIAH = {
+    root: "https://www.google.com/flights?hl=en#flt=",
+    origin: "CUN.", // montreal is /m/052p7 , new york is /m/02_286, toronto is /m/0h7h6
+    destination: "IAH.", // montreal is /m/052p7. , new york is /m/02_286. , toronto is /m/0h7h6.
+    queryDate: `${yyyy}-${mm}-${dd}`, //YYYY-MM-DD
+    oneCarryOnBagAndCurrency: ";b:1;c:USD", // CAD is ;c:CAD , USD is ;c:USD
+    fareClass: ";e:1;so:1;sd:1;t:f;tt:o", // economy is ";e:1;so:1;sd:1;t:f;tt:o" , business is ";e:1;sc:b;so:1;sd:1;t:f;tt:o"
+    fareClassDescription: "economy",
+    destinationDescription: "Houston",
+    originDescription: "Cancun",
+
+};
+var LAStoCUN = {
+    root: "https://www.google.com/flights?hl=en#flt=",
+    origin: "LAS.", // montreal is /m/052p7 , new york is /m/02_286, toronto is /m/0h7h6
+    destination: "CUN.", // montreal is /m/052p7. , new york is /m/02_286. , toronto is /m/0h7h6.
+    queryDate: `${yyyy}-${mm}-${dd}`, //YYYY-MM-DD
+    oneCarryOnBagAndCurrency: ";b:1;c:USD", // CAD is ;c:CAD , USD is ;c:USD
+    fareClass: ";e:1;so:1;sd:1;t:f;tt:o", // economy is ";e:1;so:1;sd:1;t:f;tt:o" , business is ";e:1;sc:b;so:1;sd:1;t:f;tt:o"
+    fareClassDescription: "economy",
+    destinationDescription: "Cancun",
+    originDescription: "Las Vegas",
+
+};
+var CUNtoLAS = {
+    root: "https://www.google.com/flights?hl=en#flt=",
+    origin: "CUN.", // montreal is /m/052p7 , new york is /m/02_286, toronto is /m/0h7h6
+    destination: "LAS.", // montreal is /m/052p7. , new york is /m/02_286. , toronto is /m/0h7h6.
+    queryDate: `${yyyy}-${mm}-${dd}`, //YYYY-MM-DD
+    oneCarryOnBagAndCurrency: ";b:1;c:USD", // CAD is ;c:CAD , USD is ;c:USD
+    fareClass: ";e:1;so:1;sd:1;t:f;tt:o", // economy is ";e:1;so:1;sd:1;t:f;tt:o" , business is ";e:1;sc:b;so:1;sd:1;t:f;tt:o"
+    fareClassDescription: "economy",
+    destinationDescription: "Las Vegas",
+    originDescription: "Cancun",
+
+};
+var MIAtoCUN = {
+    root: "https://www.google.com/flights?hl=en#flt=",
+    origin: "MIA.", // montreal is /m/052p7 , new york is /m/02_286, toronto is /m/0h7h6
+    destination: "CUN.", // montreal is /m/052p7. , new york is /m/02_286. , toronto is /m/0h7h6.
+    queryDate: `${yyyy}-${mm}-${dd}`, //YYYY-MM-DD
+    oneCarryOnBagAndCurrency: ";b:1;c:USD", // CAD is ;c:CAD , USD is ;c:USD
+    fareClass: ";e:1;so:1;sd:1;t:f;tt:o", // economy is ";e:1;so:1;sd:1;t:f;tt:o" , business is ";e:1;sc:b;so:1;sd:1;t:f;tt:o"
+    fareClassDescription: "economy",
+    destinationDescription: "Cancun",
+    originDescription: "Miami",
+
+};
+var CUNtoMIA = {
+    root: "https://www.google.com/flights?hl=en#flt=",
+    origin: "CUN.", // montreal is /m/052p7 , new york is /m/02_286, toronto is /m/0h7h6
+    destination: "MIA.", // montreal is /m/052p7. , new york is /m/02_286. , toronto is /m/0h7h6.
+    queryDate: `${yyyy}-${mm}-${dd}`, //YYYY-MM-DD
+    oneCarryOnBagAndCurrency: ";b:1;c:USD", // CAD is ;c:CAD , USD is ;c:USD
+    fareClass: ";e:1;so:1;sd:1;t:f;tt:o", // economy is ";e:1;so:1;sd:1;t:f;tt:o" , business is ";e:1;sc:b;so:1;sd:1;t:f;tt:o"
+    fareClassDescription: "economy",
+    destinationDescription: "Miami",
+    originDescription: "Cancun",
+
+};
+var MCOtoCUN = {
+    root: "https://www.google.com/flights?hl=en#flt=",
+    origin: "MCO.", // montreal is /m/052p7 , new york is /m/02_286, toronto is /m/0h7h6
+    destination: "CUN.", // montreal is /m/052p7. , new york is /m/02_286. , toronto is /m/0h7h6.
+    queryDate: `${yyyy}-${mm}-${dd}`, //YYYY-MM-DD
+    oneCarryOnBagAndCurrency: ";b:1;c:USD", // CAD is ;c:CAD , USD is ;c:USD
+    fareClass: ";e:1;so:1;sd:1;t:f;tt:o", // economy is ";e:1;so:1;sd:1;t:f;tt:o" , business is ";e:1;sc:b;so:1;sd:1;t:f;tt:o"
+    fareClassDescription: "economy",
+    destinationDescription: "Cancun",
+    originDescription: "Orlando",
+
+};
+var CUNtoMCO = {
+    root: "https://www.google.com/flights?hl=en#flt=",
+    origin: "CUN.", // montreal is /m/052p7 , new york is /m/02_286, toronto is /m/0h7h6
+    destination: "MCO.", // montreal is /m/052p7. , new york is /m/02_286. , toronto is /m/0h7h6.
+    queryDate: `${yyyy}-${mm}-${dd}`, //YYYY-MM-DD
+    oneCarryOnBagAndCurrency: ";b:1;c:USD", // CAD is ;c:CAD , USD is ;c:USD
+    fareClass: ";e:1;so:1;sd:1;t:f;tt:o", // economy is ";e:1;so:1;sd:1;t:f;tt:o" , business is ";e:1;sc:b;so:1;sd:1;t:f;tt:o"
+    fareClassDescription: "economy",
+    destinationDescription: "Orlando",
+    originDescription: "Cancun",
+
+};
+var SMFtoCUN = {
+    root: "https://www.google.com/flights?hl=en#flt=",
+    origin: "SMF.", // montreal is /m/052p7 , new york is /m/02_286, toronto is /m/0h7h6
+    destination: "CUN.", // montreal is /m/052p7. , new york is /m/02_286. , toronto is /m/0h7h6.
+    queryDate: `${yyyy}-${mm}-${dd}`, //YYYY-MM-DD
+    oneCarryOnBagAndCurrency: ";b:1;c:USD", // CAD is ;c:CAD , USD is ;c:USD
+    fareClass: ";e:1;so:1;sd:1;t:f;tt:o", // economy is ";e:1;so:1;sd:1;t:f;tt:o" , business is ";e:1;sc:b;so:1;sd:1;t:f;tt:o"
+    fareClassDescription: "economy",
+    destinationDescription: "Cancun",
+    originDescription: "Sacramento",
+
+};
+var CUNtoSMF = {
+    root: "https://www.google.com/flights?hl=en#flt=",
+    origin: "CUN.", // montreal is /m/052p7 , new york is /m/02_286, toronto is /m/0h7h6
+    destination: "SMF.", // montreal is /m/052p7. , new york is /m/02_286. , toronto is /m/0h7h6.
+    queryDate: `${yyyy}-${mm}-${dd}`, //YYYY-MM-DD
+    oneCarryOnBagAndCurrency: ";b:1;c:USD", // CAD is ;c:CAD , USD is ;c:USD
+    fareClass: ";e:1;so:1;sd:1;t:f;tt:o", // economy is ";e:1;so:1;sd:1;t:f;tt:o" , business is ";e:1;sc:b;so:1;sd:1;t:f;tt:o"
+    fareClassDescription: "economy",
+    destinationDescription: "Sacramento",
+    originDescription: "Cancun",
+
+};
+var SLCtoCUN = {
+    root: "https://www.google.com/flights?hl=en#flt=",
+    origin: "SLC.", // montreal is /m/052p7 , new york is /m/02_286, toronto is /m/0h7h6
+    destination: "CUN.", // montreal is /m/052p7. , new york is /m/02_286. , toronto is /m/0h7h6.
+    queryDate: `${yyyy}-${mm}-${dd}`, //YYYY-MM-DD
+    oneCarryOnBagAndCurrency: ";b:1;c:USD", // CAD is ;c:CAD , USD is ;c:USD
+    fareClass: ";e:1;so:1;sd:1;t:f;tt:o", // economy is ";e:1;so:1;sd:1;t:f;tt:o" , business is ";e:1;sc:b;so:1;sd:1;t:f;tt:o"
+    fareClassDescription: "economy",
+    destinationDescription: "Cancun",
+    originDescription: "Salt Lake City",
+
+};
+var CUNtoSLC = {
+    root: "https://www.google.com/flights?hl=en#flt=",
+    origin: "CUN.", // montreal is /m/052p7 , new york is /m/02_286, toronto is /m/0h7h6
+    destination: "SLC.", // montreal is /m/052p7. , new york is /m/02_286. , toronto is /m/0h7h6.
+    queryDate: `${yyyy}-${mm}-${dd}`, //YYYY-MM-DD
+    oneCarryOnBagAndCurrency: ";b:1;c:USD", // CAD is ;c:CAD , USD is ;c:USD
+    fareClass: ";e:1;so:1;sd:1;t:f;tt:o", // economy is ";e:1;so:1;sd:1;t:f;tt:o" , business is ";e:1;sc:b;so:1;sd:1;t:f;tt:o"
+    fareClassDescription: "economy",
+    destinationDescription: "Salt Lake City",
+    originDescription: "Cancun",
+
+};
+var SATtoCUN = {
+    root: "https://www.google.com/flights?hl=en#flt=",
+    origin: "SAT.", // montreal is /m/052p7 , new york is /m/02_286, toronto is /m/0h7h6
+    destination: "CUN.", // montreal is /m/052p7. , new york is /m/02_286. , toronto is /m/0h7h6.
+    queryDate: `${yyyy}-${mm}-${dd}`, //YYYY-MM-DD
+    oneCarryOnBagAndCurrency: ";b:1;c:USD", // CAD is ;c:CAD , USD is ;c:USD
+    fareClass: ";e:1;so:1;sd:1;t:f;tt:o", // economy is ";e:1;so:1;sd:1;t:f;tt:o" , business is ";e:1;sc:b;so:1;sd:1;t:f;tt:o"
+    fareClassDescription: "economy",
+    destinationDescription: "Cancun",
+    originDescription: "San Antonio",
+
+};
+var CUNtoSAT = {
+    root: "https://www.google.com/flights?hl=en#flt=",
+    origin: "CUN.", // montreal is /m/052p7 , new york is /m/02_286, toronto is /m/0h7h6
+    destination: "SAT.", // montreal is /m/052p7. , new york is /m/02_286. , toronto is /m/0h7h6.
+    queryDate: `${yyyy}-${mm}-${dd}`, //YYYY-MM-DD
+    oneCarryOnBagAndCurrency: ";b:1;c:USD", // CAD is ;c:CAD , USD is ;c:USD
+    fareClass: ";e:1;so:1;sd:1;t:f;tt:o", // economy is ";e:1;so:1;sd:1;t:f;tt:o" , business is ";e:1;sc:b;so:1;sd:1;t:f;tt:o"
+    fareClassDescription: "economy",
+    destinationDescription: "San Antonio",
+    originDescription: "Cancun",
+
+};
+var SFOtoCUN = {
+    root: "https://www.google.com/flights?hl=en#flt=",
+    origin: "SFO.", // montreal is /m/052p7 , new york is /m/02_286, toronto is /m/0h7h6
+    destination: "CUN.", // montreal is /m/052p7. , new york is /m/02_286. , toronto is /m/0h7h6.
+    queryDate: `${yyyy}-${mm}-${dd}`, //YYYY-MM-DD
+    oneCarryOnBagAndCurrency: ";b:1;c:USD", // CAD is ;c:CAD , USD is ;c:USD
+    fareClass: ";e:1;so:1;sd:1;t:f;tt:o", // economy is ";e:1;so:1;sd:1;t:f;tt:o" , business is ";e:1;sc:b;so:1;sd:1;t:f;tt:o"
+    fareClassDescription: "economy",
+    destinationDescription: "Cancun",
+    originDescription: "San Francisco",
+
+};
+var CUNtoSFO = {
+    root: "https://www.google.com/flights?hl=en#flt=",
+    origin: "CUN.", // montreal is /m/052p7 , new york is /m/02_286, toronto is /m/0h7h6
+    destination: "SFO.", // montreal is /m/052p7. , new york is /m/02_286. , toronto is /m/0h7h6.
+    queryDate: `${yyyy}-${mm}-${dd}`, //YYYY-MM-DD
+    oneCarryOnBagAndCurrency: ";b:1;c:USD", // CAD is ;c:CAD , USD is ;c:USD
+    fareClass: ";e:1;so:1;sd:1;t:f;tt:o", // economy is ";e:1;so:1;sd:1;t:f;tt:o" , business is ";e:1;sc:b;so:1;sd:1;t:f;tt:o"
+    fareClassDescription: "economy",
+    destinationDescription: "San Francisco",
+    originDescription: "Cancun",
+
+};
+var AUStoCUN = {
+    root: "https://www.google.com/flights?hl=en#flt=",
+    origin: "AUS.", // montreal is /m/052p7 , new york is /m/02_286, toronto is /m/0h7h6
+    destination: "CUN.", // montreal is /m/052p7. , new york is /m/02_286. , toronto is /m/0h7h6.
+    queryDate: `${yyyy}-${mm}-${dd}`, //YYYY-MM-DD
+    oneCarryOnBagAndCurrency: ";b:1;c:USD", // CAD is ;c:CAD , USD is ;c:USD
+    fareClass: ";e:1;so:1;sd:1;t:f;tt:o", // economy is ";e:1;so:1;sd:1;t:f;tt:o" , business is ";e:1;sc:b;so:1;sd:1;t:f;tt:o"
+    fareClassDescription: "economy",
+    destinationDescription: "Cancun",
+    originDescription: "Austin",
+
+};
+var CUNtoAUS = {
+    root: "https://www.google.com/flights?hl=en#flt=",
+    origin: "CUN.", // montreal is /m/052p7 , new york is /m/02_286, toronto is /m/0h7h6
+    destination: "AUS.", // montreal is /m/052p7. , new york is /m/02_286. , toronto is /m/0h7h6.
+    queryDate: `${yyyy}-${mm}-${dd}`, //YYYY-MM-DD
+    oneCarryOnBagAndCurrency: ";b:1;c:USD", // CAD is ;c:CAD , USD is ;c:USD
+    fareClass: ";e:1;so:1;sd:1;t:f;tt:o", // economy is ";e:1;so:1;sd:1;t:f;tt:o" , business is ";e:1;sc:b;so:1;sd:1;t:f;tt:o"
+    fareClassDescription: "economy",
+    destinationDescription: "Austin",
+    originDescription: "Cancun",
+
+};
 
 
 
@@ -321,84 +681,84 @@ var readyToTriggerPuppteer = 0;
 
 
 var loop = {
-    mainLoop: function(city) {
+    mainLoop: function (city) {
 
         allDestinations = [];
         allDestinations = [city];
         allDatesAndDestinations = [];
 
-            for (var index in allDestinations) {
+        for (var index in allDestinations) {
 
 
-                queryOptions = allDestinations[index];
-            
-                // Control the number of days to gather information for.
-                var numberOfDays = 93;
-            
-                for (var currentDay = 0; currentDay < numberOfDays; currentDay++) {
-            
-                    var newDate = moment()
-                        .add(currentDay, "days")
-                        .format("YYYY-MM-DD");
-            
-                        var newDay = moment()
-                        .add(currentDay, "days")
-                        .format("DD");
-            
-                        var newYear = moment()
-                        .add(currentDay, "days")
-                        .format("YYYY");
-            
-                        var newMonth = moment()
-                        .add(currentDay, "days")
-                        .format("MM");
-            
-                    var a = allDestinations[index].root;
-                    var b = allDestinations[index].origin;
-                    var c = allDestinations[index].destination;
-                    var d = newDate;
-                    var e = allDestinations[index].oneCarryOnBagAndCurrency;
-                    var f = allDestinations[index].fareClass;
-                    var g = allDestinations[index].fareClassDescription;
-                    var h = allDestinations[index].destinationDescription;
-                    var i = allDestinations[index].originDescription;
-                    var j = newDay;
-                    var k = newMonth;
-                    var l = newYear;
-            
-            
-                    allDatesAndDestinations.push({
-                        root: a,
-                        origin: b, // montreal is /m/052p7 , new york is /m/02_286, toronto is /m/0h7h6
-                        destination: c, // montreal is /m/052p7. , new york is /m/02_286. , toronto is /m/0h7h6.
-                        queryDate: d, //YYYY-MM-DD
-                        oneCarryOnBagAndCurrency: e, // CAD is ;c:CAD , USD is ;c:USD
-                        fareClass: f, // economy is ";e:1;so:1;sd:1;t:f;tt:o" , business is ";e:1;sc:b;so:1;sd:1;t:f;tt:o"
-                        fareClassDescription: g,
-                        destinationDescription: h,
-                        originDescription: i,
-                        dBDay: j,
-                        dBMonth: k,
-                        dBYear: l,
-                    });
-            
-            
-                    if ((currentDay + 1) === numberOfDays) {
-                        //readyToTriggerPuppteer++;
-            
-            
-            
-                        //if (readyToTriggerPuppteer === 16) {
-                            getFlights();
-                        //}
-            
-                    }
-            
+            queryOptions = allDestinations[index];
+
+            // Control the number of days to gather information for.
+            var numberOfDays = 93;
+
+            for (var currentDay = 0; currentDay < numberOfDays; currentDay++) {
+
+                var newDate = moment()
+                    .add(currentDay, "days")
+                    .format("YYYY-MM-DD");
+
+                var newDay = moment()
+                    .add(currentDay, "days")
+                    .format("DD");
+
+                var newYear = moment()
+                    .add(currentDay, "days")
+                    .format("YYYY");
+
+                var newMonth = moment()
+                    .add(currentDay, "days")
+                    .format("MM");
+
+                var a = allDestinations[index].root;
+                var b = allDestinations[index].origin;
+                var c = allDestinations[index].destination;
+                var d = newDate;
+                var e = allDestinations[index].oneCarryOnBagAndCurrency;
+                var f = allDestinations[index].fareClass;
+                var g = allDestinations[index].fareClassDescription;
+                var h = allDestinations[index].destinationDescription;
+                var i = allDestinations[index].originDescription;
+                var j = newDay;
+                var k = newMonth;
+                var l = newYear;
+
+
+                allDatesAndDestinations.push({
+                    root: a,
+                    origin: b, // montreal is /m/052p7 , new york is /m/02_286, toronto is /m/0h7h6
+                    destination: c, // montreal is /m/052p7. , new york is /m/02_286. , toronto is /m/0h7h6.
+                    queryDate: d, //YYYY-MM-DD
+                    oneCarryOnBagAndCurrency: e, // CAD is ;c:CAD , USD is ;c:USD
+                    fareClass: f, // economy is ";e:1;so:1;sd:1;t:f;tt:o" , business is ";e:1;sc:b;so:1;sd:1;t:f;tt:o"
+                    fareClassDescription: g,
+                    destinationDescription: h,
+                    originDescription: i,
+                    dBDay: j,
+                    dBMonth: k,
+                    dBYear: l,
+                });
+
+
+                if ((currentDay + 1) === numberOfDays) {
+                    //readyToTriggerPuppteer++;
+
+
+
+                    //if (readyToTriggerPuppteer === 16) {
+                    getFlights();
+                    //}
+
                 }
-            }
 
-  
-}
+            }
+        }
+
+
+    }
 }
 
 //Start function with this call
@@ -443,22 +803,22 @@ async function getFlights() {
             var allFlights = await page.$$("div.VKb8lb.H4aYKc > div");
             console.log("allFlights: ", allFlights.length);
 
-            
-            
 
-             const flightName = await allFlights[0].$eval("span", span => span.textContent);
+
+
+            const flightName = await allFlights[0].$eval("span", span => span.textContent);
 
             // this will provide the flight logo
             // var flightAirlineLogo = await page.$('.x8klId > img', element => element.getAttribute('src'));
             var AirlineLogo = await allFlights[0].$eval('.x8klId > img', element => element.src);
-            
+
             // this gives me the specific price
-            var price = await allFlights[0].$eval(".YMlIz.FpEdX.jLMuyc > span", element => element.innerHTML); 
-            
+            var price = await allFlights[0].$eval(".YMlIz.FpEdX.jLMuyc > span", element => element.innerHTML);
+
             var splitterA = price.split('$');
             var currency = splitterA[0].trim();
             var flightPrice = splitterA[1].trim();
-            
+
             // this gives me the Departure Airport
             var departureAirport = await allFlights[0].$eval(
                 ".G2WY5c.sSHqwe.ogfYpf.tPgKwe",
@@ -526,7 +886,7 @@ async function getFlights() {
             });
 
 
-            
+
 
             console.log(flightResults);
             console.log('\n\n\n');
@@ -545,7 +905,7 @@ async function getFlights() {
     console.log('Finished!');
     readyToTriggerPuppteer++
     //loop through all destinations
-    switch(readyToTriggerPuppteer) {
+    switch (readyToTriggerPuppteer) {
         case 0:
             return loop.mainLoop(YYZtoCUN);
         case 1:
@@ -594,7 +954,67 @@ async function getFlights() {
             return loop.mainLoop(BWItoCUN);
         case 23:
             return loop.mainLoop(CUNtoBWI);
+        case 24:
+            return loop.mainLoop(ATLtoCUN);
+        case 25:
+            return loop.mainLoop(CUNtoATL);
+        case 26:
+            return loop.mainLoop(DFWtoCUN);
+        case 27:
+            return loop.mainLoop(CUNtoDFW);
+        case 28:
+            return loop.mainLoop(YYCtoCUN);
+        case 29:
+            return loop.mainLoop(CUNtoYYC);
+        case 30:
+            return loop.mainLoop(SEAtoCUN);
+        case 31:
+            return loop.mainLoop(CUNtoSEA);
+        case 32:
+            return loop.mainLoop(DTWtoCUN);
+        case 33:
+            return loop.mainLoop(CUNtoDTW);
+        case 34:
+            return loop.mainLoop(FATtoCUN);
+        case 35:
+            return loop.mainLoop(CUNtoFAT);
+        case 36:
+            return loop.mainLoop(IAHtoCUN);
+        case 37:
+            return loop.mainLoop(CUNtoIAH);
+        case 38:
+            return loop.mainLoop(LAStoCUN);
+        case 39:
+            return loop.mainLoop(CUNtoLAS);
+        case 40:
+            return loop.mainLoop(MIAtoCUN);
+        case 41:
+            return loop.mainLoop(CUNtoMIA);
+        case 42:
+            return loop.mainLoop(MCOtoCUN);
+        case 43:
+            return loop.mainLoop(SMFtoCUN);
+        case 44:
+            return loop.mainLoop(CUNtoSMF);
+        case 45:
+            return loop.mainLoop(SLCtoCUN);
+        case 46:
+            return loop.mainLoop(CUNtoSLC);
+        case 47:
+            return loop.mainLoop(SATtoCUN);
+        case 48:
+            return loop.mainLoop(CUNtoSAT);
+        case 49:
+            return loop.mainLoop(SFOtoCUN);
+        case 50:
+            return loop.mainLoop(CUNtoSFO);
+        case 51:
+            return loop.mainLoop(AUStoCUN);
+        case 52:
+            return loop.mainLoop(CUNtoAUS);
+        case 53:
+            return loop.mainLoop(CUNtoMCO);
         default:
             return true;
-      }
+    }
 }
