@@ -146,8 +146,8 @@ var JFKtoCUN = {
     oneCarryOnBagAndCurrency: ";b:1;c:USD", // CAD is ;c:CAD , USD is ;c:USD
     fareClass: ";e:1;so:1;sd:1;t:f;tt:o", // economy is ";e:1;so:1;sd:1;t:f;tt:o" , business is ";e:1;sc:b;so:1;sd:1;t:f;tt:o"
     fareClassDescription: "economy",
-    destinationDescription: "NewYorkCity",
-    originDescription: "Cancun",
+    destinationDescription: "Cancun",
+    originDescription: "New York City",
 
 };
 var CUNtoJFK = {
@@ -158,7 +158,7 @@ var CUNtoJFK = {
     oneCarryOnBagAndCurrency: ";b:1;c:USD", // CAD is ;c:CAD , USD is ;c:USD
     fareClass: ";e:1;so:1;sd:1;t:f;tt:o", // economy is ";e:1;so:1;sd:1;t:f;tt:o" , business is ";e:1;sc:b;so:1;sd:1;t:f;tt:o"
     fareClassDescription: "economy",
-    destinationDescription: "NewYorkCity",
+    destinationDescription: "New York City",
     originDescription: "Cancun",
 
 };
@@ -763,6 +763,8 @@ var loop = {
 
 //Start function with this call
 loop.mainLoop(YYZtoCUN)
+
+
 
 
 async function getFlights() {
