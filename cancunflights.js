@@ -995,26 +995,28 @@ async function getFlights() {
         case 42:
             return loop.mainLoop(MCOtoCUN);
         case 43:
-            return loop.mainLoop(SMFtoCUN);
+            return loop.mainLoop(CUNtoMCO);
         case 44:
-            return loop.mainLoop(CUNtoSMF);
+            return loop.mainLoop(SMFtoCUN);
         case 45:
-            return loop.mainLoop(SLCtoCUN);
+            return loop.mainLoop(CUNtoSMF);
         case 46:
-            return loop.mainLoop(CUNtoSLC);
+            return loop.mainLoop(SLCtoCUN);
         case 47:
-            return loop.mainLoop(SATtoCUN);
+            return loop.mainLoop(CUNtoSLC);
         case 48:
-            return loop.mainLoop(CUNtoSAT);
+            return loop.mainLoop(SATtoCUN);
         case 49:
-            return loop.mainLoop(SFOtoCUN);
+            return loop.mainLoop(CUNtoSAT);
         case 50:
-            return loop.mainLoop(CUNtoSFO);
+            return loop.mainLoop(SFOtoCUN);
         case 51:
-            return loop.mainLoop(AUStoCUN);
+            return loop.mainLoop(CUNtoSFO);
         case 52:
-            return loop.mainLoop(CUNtoAUS);
+            return loop.mainLoop(AUStoCUN);
         case 53:
+            return loop.mainLoop(CUNtoAUS);
+        case 54:
             return loop.mainLoop(CUNtoMCO);
         default:
             return true;
