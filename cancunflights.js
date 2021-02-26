@@ -23,7 +23,7 @@ var YYZtoCUN = {
     origin: "YYZ.", // montreal is /m/052p7 , new york is /m/02_286, toronto is /m/0h7h6
     destination: "CUN.", // montreal is /m/052p7. , new york is /m/02_286. , toronto is /m/0h7h6.
     queryDate: `${yyyy}-${mm}-${dd}`, //YYYY-MM-DD
-    oneCarryOnBagAndCurrency: ";b:1;c:USD", // CAD is ;c:CAD , USD is ;c:USD
+    oneCarryOnBagAndCurrency: ";b:1;c:CAD", // CAD is ;c:CAD , USD is ;c:USD
     fareClass: ";e:1;so:1;sd:1;t:f;tt:o", // economy is ";e:1;so:1;sd:1;t:f;tt:o" , business is ";e:1;sc:b;so:1;sd:1;t:f;tt:o"
     fareClassDescription: "economy",
     destinationDescription: "Cancun",
@@ -35,7 +35,7 @@ var CUNtoYYZ = {
     origin: "CUN.", // montreal is /m/052p7 , new york is /m/02_286, toronto is /m/0h7h6
     destination: "YYZ.", // montreal is /m/052p7. , new york is /m/02_286. , toronto is /m/0h7h6.
     queryDate: `${yyyy}-${mm}-${dd}`, //YYYY-MM-DD
-    oneCarryOnBagAndCurrency: ";b:1;c:USD", // CAD is ;c:CAD , USD is ;c:USD
+    oneCarryOnBagAndCurrency: ";b:1;c:CAD", // CAD is ;c:CAD , USD is ;c:USD
     fareClass: ";e:1;so:1;sd:1;t:f;tt:o", // economy is ";e:1;so:1;sd:1;t:f;tt:o" , business is ";e:1;sc:b;so:1;sd:1;t:f;tt:o"
     fareClassDescription: "economy",
     destinationDescription: "Toronto",
@@ -47,7 +47,7 @@ var YULtoCUN = {
     origin: "YUL.", // montreal is /m/052p7 , new york is /m/02_286, toronto is /m/0h7h6
     destination: "CUN.", // montreal is /m/052p7. , new york is /m/02_286. , toronto is /m/0h7h6.
     queryDate: `${yyyy}-${mm}-${dd}`, //YYYY-MM-DD
-    oneCarryOnBagAndCurrency: ";b:1;c:USD", // CAD is ;c:CAD , USD is ;c:USD
+    oneCarryOnBagAndCurrency: ";b:1;c:CAD", // CAD is ;c:CAD , USD is ;c:USD
     fareClass: ";e:1;so:1;sd:1;t:f;tt:o", // economy is ";e:1;so:1;sd:1;t:f;tt:o" , business is ";e:1;sc:b;so:1;sd:1;t:f;tt:o"
     fareClassDescription: "economy",
     destinationDescription: "Cancun",
@@ -59,7 +59,7 @@ var CUNtoYUL = {
     origin: "CUN.", // montreal is /m/052p7 , new york is /m/02_286, toronto is /m/0h7h6
     destination: "YUL.", // montreal is /m/052p7. , new york is /m/02_286. , toronto is /m/0h7h6.
     queryDate: `${yyyy}-${mm}-${dd}`, //YYYY-MM-DD
-    oneCarryOnBagAndCurrency: ";b:1;c:USD", // CAD is ;c:CAD , USD is ;c:USD
+    oneCarryOnBagAndCurrency: ";b:1;c:CAD", // CAD is ;c:CAD , USD is ;c:USD
     fareClass: ";e:1;so:1;sd:1;t:f;tt:o", // economy is ";e:1;so:1;sd:1;t:f;tt:o" , business is ";e:1;sc:b;so:1;sd:1;t:f;tt:o"
     fareClassDescription: "economy",
     destinationDescription: "Montreal",
@@ -71,7 +71,7 @@ var YVRtoCUN = {
     origin: "YVR.", // montreal is /m/052p7 , new york is /m/02_286, toronto is /m/0h7h6
     destination: "CUN.", // montreal is /m/052p7. , new york is /m/02_286. , toronto is /m/0h7h6.
     queryDate: `${yyyy}-${mm}-${dd}`, //YYYY-MM-DD
-    oneCarryOnBagAndCurrency: ";b:1;c:USD", // CAD is ;c:CAD , USD is ;c:USD
+    oneCarryOnBagAndCurrency: ";b:1;c:CAD", // CAD is ;c:CAD , USD is ;c:USD
     fareClass: ";e:1;so:1;sd:1;t:f;tt:o", // economy is ";e:1;so:1;sd:1;t:f;tt:o" , business is ";e:1;sc:b;so:1;sd:1;t:f;tt:o"
     fareClassDescription: "economy",
     destinationDescription: "Cancun",
@@ -83,7 +83,7 @@ var CUNtoYVR = {
     origin: "CUN.", // montreal is /m/052p7 , new york is /m/02_286, toronto is /m/0h7h6
     destination: "YVR.", // montreal is /m/052p7. , new york is /m/02_286. , toronto is /m/0h7h6.
     queryDate: `${yyyy}-${mm}-${dd}`, //YYYY-MM-DD
-    oneCarryOnBagAndCurrency: ";b:1;c:USD", // CAD is ;c:CAD , USD is ;c:USD
+    oneCarryOnBagAndCurrency: ";b:1;c:CAD", // CAD is ;c:CAD , USD is ;c:USD
     fareClass: ";e:1;so:1;sd:1;t:f;tt:o", // economy is ";e:1;so:1;sd:1;t:f;tt:o" , business is ";e:1;sc:b;so:1;sd:1;t:f;tt:o"
     fareClassDescription: "economy",
     destinationDescription: "Vancouver",
@@ -95,7 +95,7 @@ var ORDtoCUN = {
     origin: "ORD.", // montreal is /m/052p7 , new york is /m/02_286, toronto is /m/0h7h6
     destination: "CUN.", // montreal is /m/052p7. , new york is /m/02_286. , toronto is /m/0h7h6.
     queryDate: `${yyyy}-${mm}-${dd}`, //YYYY-MM-DD
-    oneCarryOnBagAndCurrency: ";b:1;c:USD", // CAD is ;c:CAD , USD is ;c:USD
+    oneCarryOnBagAndCurrency: ";b:1;c:CAD", // CAD is ;c:CAD , USD is ;c:USD
     fareClass: ";e:1;so:1;sd:1;t:f;tt:o", // economy is ";e:1;so:1;sd:1;t:f;tt:o" , business is ";e:1;sc:b;so:1;sd:1;t:f;tt:o"
     fareClassDescription: "economy",
     destinationDescription: "Cancun",
@@ -107,7 +107,7 @@ var CUNtoORD = {
     origin: "CUN.", // montreal is /m/052p7 , new york is /m/02_286, toronto is /m/0h7h6
     destination: "ORD.", // montreal is /m/052p7. , new york is /m/02_286. , toronto is /m/0h7h6.
     queryDate: `${yyyy}-${mm}-${dd}`, //YYYY-MM-DD
-    oneCarryOnBagAndCurrency: ";b:1;c:USD", // CAD is ;c:CAD , USD is ;c:USD
+    oneCarryOnBagAndCurrency: ";b:1;c:CAD", // CAD is ;c:CAD , USD is ;c:USD
     fareClass: ";e:1;so:1;sd:1;t:f;tt:o", // economy is ";e:1;so:1;sd:1;t:f;tt:o" , business is ";e:1;sc:b;so:1;sd:1;t:f;tt:o"
     fareClassDescription: "economy",
     destinationDescription: "Chicago",
@@ -119,7 +119,7 @@ var PHLtoCUN = {
     origin: "PHL.", // montreal is /m/052p7 , new york is /m/02_286, toronto is /m/0h7h6
     destination: "CUN.", // montreal is /m/052p7. , new york is /m/02_286. , toronto is /m/0h7h6.
     queryDate: `${yyyy}-${mm}-${dd}`, //YYYY-MM-DD
-    oneCarryOnBagAndCurrency: ";b:1;c:USD", // CAD is ;c:CAD , USD is ;c:USD
+    oneCarryOnBagAndCurrency: ";b:1;c:CAD", // CAD is ;c:CAD , USD is ;c:USD
     fareClass: ";e:1;so:1;sd:1;t:f;tt:o", // economy is ";e:1;so:1;sd:1;t:f;tt:o" , business is ";e:1;sc:b;so:1;sd:1;t:f;tt:o"
     fareClassDescription: "economy",
     destinationDescription: "Cancun",
@@ -131,7 +131,7 @@ var CUNtoPHL = {
     origin: "CUN.", // montreal is /m/052p7 , new york is /m/02_286, toronto is /m/0h7h6
     destination: "PHL.", // montreal is /m/052p7. , new york is /m/02_286. , toronto is /m/0h7h6.
     queryDate: `${yyyy}-${mm}-${dd}`, //YYYY-MM-DD
-    oneCarryOnBagAndCurrency: ";b:1;c:USD", // CAD is ;c:CAD , USD is ;c:USD
+    oneCarryOnBagAndCurrency: ";b:1;c:CAD", // CAD is ;c:CAD , USD is ;c:USD
     fareClass: ";e:1;so:1;sd:1;t:f;tt:o", // economy is ";e:1;so:1;sd:1;t:f;tt:o" , business is ";e:1;sc:b;so:1;sd:1;t:f;tt:o"
     fareClassDescription: "economy",
     destinationDescription: "Philadelphia",
@@ -143,7 +143,7 @@ var JFKtoCUN = {
     origin: "JFK.", // montreal is /m/052p7 , new york is /m/02_286, toronto is /m/0h7h6
     destination: "CUN.", // montreal is /m/052p7. , new york is /m/02_286. , toronto is /m/0h7h6.
     queryDate: `${yyyy}-${mm}-${dd}`, //YYYY-MM-DD
-    oneCarryOnBagAndCurrency: ";b:1;c:USD", // CAD is ;c:CAD , USD is ;c:USD
+    oneCarryOnBagAndCurrency: ";b:1;c:CAD", // CAD is ;c:CAD , USD is ;c:USD
     fareClass: ";e:1;so:1;sd:1;t:f;tt:o", // economy is ";e:1;so:1;sd:1;t:f;tt:o" , business is ";e:1;sc:b;so:1;sd:1;t:f;tt:o"
     fareClassDescription: "economy",
     destinationDescription: "Cancun",
@@ -155,7 +155,7 @@ var CUNtoJFK = {
     origin: "CUN.", // montreal is /m/052p7 , new york is /m/02_286, toronto is /m/0h7h6
     destination: "JFK.", // montreal is /m/052p7. , new york is /m/02_286. , toronto is /m/0h7h6.
     queryDate: `${yyyy}-${mm}-${dd}`, //YYYY-MM-DD
-    oneCarryOnBagAndCurrency: ";b:1;c:USD", // CAD is ;c:CAD , USD is ;c:USD
+    oneCarryOnBagAndCurrency: ";b:1;c:CAD", // CAD is ;c:CAD , USD is ;c:USD
     fareClass: ";e:1;so:1;sd:1;t:f;tt:o", // economy is ";e:1;so:1;sd:1;t:f;tt:o" , business is ";e:1;sc:b;so:1;sd:1;t:f;tt:o"
     fareClassDescription: "economy",
     destinationDescription: "New York City",
@@ -167,7 +167,7 @@ var MSPtoCUN = {
     origin: "MSP.", // montreal is /m/052p7 , new york is /m/02_286, toronto is /m/0h7h6
     destination: "CUN.", // montreal is /m/052p7. , new york is /m/02_286. , toronto is /m/0h7h6.
     queryDate: `${yyyy}-${mm}-${dd}`, //YYYY-MM-DD
-    oneCarryOnBagAndCurrency: ";b:1;c:USD", // CAD is ;c:CAD , USD is ;c:USD
+    oneCarryOnBagAndCurrency: ";b:1;c:CAD", // CAD is ;c:CAD , USD is ;c:USD
     fareClass: ";e:1;so:1;sd:1;t:f;tt:o", // economy is ";e:1;so:1;sd:1;t:f;tt:o" , business is ";e:1;sc:b;so:1;sd:1;t:f;tt:o"
     fareClassDescription: "economy",
     destinationDescription: "Cancun",
@@ -179,7 +179,7 @@ var CUNtoMSP = {
     origin: "CUN.", // montreal is /m/052p7 , new york is /m/02_286, toronto is /m/0h7h6
     destination: "MSP.", // montreal is /m/052p7. , new york is /m/02_286. , toronto is /m/0h7h6.
     queryDate: `${yyyy}-${mm}-${dd}`, //YYYY-MM-DD
-    oneCarryOnBagAndCurrency: ";b:1;c:USD", // CAD is ;c:CAD , USD is ;c:USD
+    oneCarryOnBagAndCurrency: ";b:1;c:CAD", // CAD is ;c:CAD , USD is ;c:USD
     fareClass: ";e:1;so:1;sd:1;t:f;tt:o", // economy is ";e:1;so:1;sd:1;t:f;tt:o" , business is ";e:1;sc:b;so:1;sd:1;t:f;tt:o"
     fareClassDescription: "economyv",
     destinationDescription: "Minneapolis",
@@ -191,7 +191,7 @@ var CLEtoCUN = {
     origin: "CLE.", // montreal is /m/052p7 , new york is /m/02_286, toronto is /m/0h7h6
     destination: "CUN.", // montreal is /m/052p7. , new york is /m/02_286. , toronto is /m/0h7h6.
     queryDate: `${yyyy}-${mm}-${dd}`, //YYYY-MM-DD
-    oneCarryOnBagAndCurrency: ";b:1;c:USD", // CAD is ;c:CAD , USD is ;c:USD
+    oneCarryOnBagAndCurrency: ";b:1;c:CAD", // CAD is ;c:CAD , USD is ;c:USD
     fareClass: ";e:1;so:1;sd:1;t:f;tt:o", // economy is ";e:1;so:1;sd:1;t:f;tt:o" , business is ";e:1;sc:b;so:1;sd:1;t:f;tt:o"
     fareClassDescription: "economy",
     destinationDescription: "Cancun",
@@ -203,7 +203,7 @@ var CUNtoCLE = {
     origin: "CUN.", // montreal is /m/052p7 , new york is /m/02_286, toronto is /m/0h7h6
     destination: "CLE.", // montreal is /m/052p7. , new york is /m/02_286. , toronto is /m/0h7h6.
     queryDate: `${yyyy}-${mm}-${dd}`, //YYYY-MM-DD
-    oneCarryOnBagAndCurrency: ";b:1;c:USD", // CAD is ;c:CAD , USD is ;c:USD
+    oneCarryOnBagAndCurrency: ";b:1;c:CAD", // CAD is ;c:CAD , USD is ;c:USD
     fareClass: ";e:1;so:1;sd:1;t:f;tt:o", // economy is ";e:1;so:1;sd:1;t:f;tt:o" , business is ";e:1;sc:b;so:1;sd:1;t:f;tt:o"
     fareClassDescription: "economy",
     destinationDescription: "Cleveland",
@@ -215,7 +215,7 @@ var DENtoCUN = {
     origin: "DEN.", // montreal is /m/052p7 , new york is /m/02_286, toronto is /m/0h7h6
     destination: "CUN.", // montreal is /m/052p7. , new york is /m/02_286. , toronto is /m/0h7h6.
     queryDate: `${yyyy}-${mm}-${dd}`, //YYYY-MM-DD
-    oneCarryOnBagAndCurrency: ";b:1;c:USD", // CAD is ;c:CAD , USD is ;c:USD
+    oneCarryOnBagAndCurrency: ";b:1;c:CAD", // CAD is ;c:CAD , USD is ;c:USD
     fareClass: ";e:1;so:1;sd:1;t:f;tt:o", // economy is ";e:1;so:1;sd:1;t:f;tt:o" , business is ";e:1;sc:b;so:1;sd:1;t:f;tt:o"
     fareClassDescription: "economy",
     destinationDescription: "Cancun",
@@ -227,7 +227,7 @@ var CUNtoDEN = {
     origin: "CUN.", // montreal is /m/052p7 , new york is /m/02_286, toronto is /m/0h7h6
     destination: "DEN.", // montreal is /m/052p7. , new york is /m/02_286. , toronto is /m/0h7h6.
     queryDate: `${yyyy}-${mm}-${dd}`, //YYYY-MM-DD
-    oneCarryOnBagAndCurrency: ";b:1;c:USD", // CAD is ;c:CAD , USD is ;c:USD
+    oneCarryOnBagAndCurrency: ";b:1;c:CAD", // CAD is ;c:CAD , USD is ;c:USD
     fareClass: ";e:1;so:1;sd:1;t:f;tt:o", // economy is ";e:1;so:1;sd:1;t:f;tt:o" , business is ";e:1;sc:b;so:1;sd:1;t:f;tt:o"
     fareClassDescription: "economy",
     destinationDescription: "Denver",
@@ -239,7 +239,7 @@ var EWRtoCUN = {
     origin: "EWR.", // montreal is /m/052p7 , new york is /m/02_286, toronto is /m/0h7h6
     destination: "CUN.", // montreal is /m/052p7. , new york is /m/02_286. , toronto is /m/0h7h6.
     queryDate: `${yyyy}-${mm}-${dd}`, //YYYY-MM-DD
-    oneCarryOnBagAndCurrency: ";b:1;c:USD", // CAD is ;c:CAD , USD is ;c:USD
+    oneCarryOnBagAndCurrency: ";b:1;c:CAD", // CAD is ;c:CAD , USD is ;c:USD
     fareClass: ";e:1;so:1;sd:1;t:f;tt:o", // economy is ";e:1;so:1;sd:1;t:f;tt:o" , business is ";e:1;sc:b;so:1;sd:1;t:f;tt:o"
     fareClassDescription: "economy",
     destinationDescription: "Cancun",
@@ -251,7 +251,7 @@ var CUNtoEWR = {
     origin: "CUN.", // montreal is /m/052p7 , new york is /m/02_286, toronto is /m/0h7h6
     destination: "EWR.", // montreal is /m/052p7. , new york is /m/02_286. , toronto is /m/0h7h6.
     queryDate: `${yyyy}-${mm}-${dd}`, //YYYY-MM-DD
-    oneCarryOnBagAndCurrency: ";b:1;c:USD", // CAD is ;c:CAD , USD is ;c:USD
+    oneCarryOnBagAndCurrency: ";b:1;c:CAD", // CAD is ;c:CAD , USD is ;c:USD
     fareClass: ";e:1;so:1;sd:1;t:f;tt:o", // economy is ";e:1;so:1;sd:1;t:f;tt:o" , business is ";e:1;sc:b;so:1;sd:1;t:f;tt:o"
     fareClassDescription: "economy",
     destinationDescription: "Newark",
@@ -263,7 +263,7 @@ var BOStoCUN = {
     origin: "BOS.", // montreal is /m/052p7 , new york is /m/02_286, toronto is /m/0h7h6
     destination: "CUN.", // montreal is /m/052p7. , new york is /m/02_286. , toronto is /m/0h7h6.
     queryDate: `${yyyy}-${mm}-${dd}`, //YYYY-MM-DD
-    oneCarryOnBagAndCurrency: ";b:1;c:USD", // CAD is ;c:CAD , USD is ;c:USD
+    oneCarryOnBagAndCurrency: ";b:1;c:CAD", // CAD is ;c:CAD , USD is ;c:USD
     fareClass: ";e:1;so:1;sd:1;t:f;tt:o", // economy is ";e:1;so:1;sd:1;t:f;tt:o" , business is ";e:1;sc:b;so:1;sd:1;t:f;tt:o"
     fareClassDescription: "economy",
     destinationDescription: "Cancun",
@@ -275,7 +275,7 @@ var CUNtoBOS = {
     origin: "CUN.", // montreal is /m/052p7 , new york is /m/02_286, toronto is /m/0h7h6
     destination: "BOS.", // montreal is /m/052p7. , new york is /m/02_286. , toronto is /m/0h7h6.
     queryDate: `${yyyy}-${mm}-${dd}`, //YYYY-MM-DD
-    oneCarryOnBagAndCurrency: ";b:1;c:USD", // CAD is ;c:CAD , USD is ;c:USD
+    oneCarryOnBagAndCurrency: ";b:1;c:CAD", // CAD is ;c:CAD , USD is ;c:USD
     fareClass: ";e:1;so:1;sd:1;t:f;tt:o", // economy is ";e:1;so:1;sd:1;t:f;tt:o" , business is ";e:1;sc:b;so:1;sd:1;t:f;tt:o"
     fareClassDescription: "economy",
     destinationDescription: "Boston",
@@ -287,7 +287,7 @@ var BWItoCUN = {
     origin: "BWI.", // montreal is /m/052p7 , new york is /m/02_286, toronto is /m/0h7h6
     destination: "CUN.", // montreal is /m/052p7. , new york is /m/02_286. , toronto is /m/0h7h6.
     queryDate: `${yyyy}-${mm}-${dd}`, //YYYY-MM-DD
-    oneCarryOnBagAndCurrency: ";b:1;c:USD", // CAD is ;c:CAD , USD is ;c:USD
+    oneCarryOnBagAndCurrency: ";b:1;c:CAD", // CAD is ;c:CAD , USD is ;c:USD
     fareClass: ";e:1;so:1;sd:1;t:f;tt:o", // economy is ";e:1;so:1;sd:1;t:f;tt:o" , business is ";e:1;sc:b;so:1;sd:1;t:f;tt:o"
     fareClassDescription: "economy",
     destinationDescription: "Cancun",
@@ -299,7 +299,7 @@ var CUNtoBWI = {
     origin: "CUN.", // montreal is /m/052p7 , new york is /m/02_286, toronto is /m/0h7h6
     destination: "BWI.", // montreal is /m/052p7. , new york is /m/02_286. , toronto is /m/0h7h6.
     queryDate: `${yyyy}-${mm}-${dd}`, //YYYY-MM-DD
-    oneCarryOnBagAndCurrency: ";b:1;c:USD", // CAD is ;c:CAD , USD is ;c:USD
+    oneCarryOnBagAndCurrency: ";b:1;c:CAD", // CAD is ;c:CAD , USD is ;c:USD
     fareClass: ";e:1;so:1;sd:1;t:f;tt:o", // economy is ";e:1;so:1;sd:1;t:f;tt:o" , business is ";e:1;sc:b;so:1;sd:1;t:f;tt:o"
     fareClassDescription: "economy",
     destinationDescription: "Baltimore",
@@ -311,7 +311,7 @@ var ATLtoCUN = {
     origin: "ATL.", // montreal is /m/052p7 , new york is /m/02_286, toronto is /m/0h7h6
     destination: "CUN.", // montreal is /m/052p7. , new york is /m/02_286. , toronto is /m/0h7h6.
     queryDate: `${yyyy}-${mm}-${dd}`, //YYYY-MM-DD
-    oneCarryOnBagAndCurrency: ";b:1;c:USD", // CAD is ;c:CAD , USD is ;c:USD
+    oneCarryOnBagAndCurrency: ";b:1;c:CAD", // CAD is ;c:CAD , USD is ;c:USD
     fareClass: ";e:1;so:1;sd:1;t:f;tt:o", // economy is ";e:1;so:1;sd:1;t:f;tt:o" , business is ";e:1;sc:b;so:1;sd:1;t:f;tt:o"
     fareClassDescription: "economy",
     destinationDescription: "Cancun",
@@ -323,7 +323,7 @@ var CUNtoATL = {
     origin: "CUN.", // montreal is /m/052p7 , new york is /m/02_286, toronto is /m/0h7h6
     destination: "ATL.", // montreal is /m/052p7. , new york is /m/02_286. , toronto is /m/0h7h6.
     queryDate: `${yyyy}-${mm}-${dd}`, //YYYY-MM-DD
-    oneCarryOnBagAndCurrency: ";b:1;c:USD", // CAD is ;c:CAD , USD is ;c:USD
+    oneCarryOnBagAndCurrency: ";b:1;c:CAD", // CAD is ;c:CAD , USD is ;c:USD
     fareClass: ";e:1;so:1;sd:1;t:f;tt:o", // economy is ";e:1;so:1;sd:1;t:f;tt:o" , business is ";e:1;sc:b;so:1;sd:1;t:f;tt:o"
     fareClassDescription: "economy",
     destinationDescription: "Atlanta",
@@ -335,7 +335,7 @@ var DFWtoCUN = {
     origin: "DFW.", // montreal is /m/052p7 , new york is /m/02_286, toronto is /m/0h7h6
     destination: "CUN.", // montreal is /m/052p7. , new york is /m/02_286. , toronto is /m/0h7h6.
     queryDate: `${yyyy}-${mm}-${dd}`, //YYYY-MM-DD
-    oneCarryOnBagAndCurrency: ";b:1;c:USD", // CAD is ;c:CAD , USD is ;c:USD
+    oneCarryOnBagAndCurrency: ";b:1;c:CAD", // CAD is ;c:CAD , USD is ;c:USD
     fareClass: ";e:1;so:1;sd:1;t:f;tt:o", // economy is ";e:1;so:1;sd:1;t:f;tt:o" , business is ";e:1;sc:b;so:1;sd:1;t:f;tt:o"
     fareClassDescription: "economy",
     destinationDescription: "Cancun",
@@ -347,7 +347,7 @@ var CUNtoDFW = {
     origin: "CUN.", // montreal is /m/052p7 , new york is /m/02_286, toronto is /m/0h7h6
     destination: "DFW.", // montreal is /m/052p7. , new york is /m/02_286. , toronto is /m/0h7h6.
     queryDate: `${yyyy}-${mm}-${dd}`, //YYYY-MM-DD
-    oneCarryOnBagAndCurrency: ";b:1;c:USD", // CAD is ;c:CAD , USD is ;c:USD
+    oneCarryOnBagAndCurrency: ";b:1;c:CAD", // CAD is ;c:CAD , USD is ;c:USD
     fareClass: ";e:1;so:1;sd:1;t:f;tt:o", // economy is ";e:1;so:1;sd:1;t:f;tt:o" , business is ";e:1;sc:b;so:1;sd:1;t:f;tt:o"
     fareClassDescription: "economy",
     destinationDescription: "Dallas",
@@ -359,7 +359,7 @@ var YYCtoCUN = {
     origin: "YYC.", // montreal is /m/052p7 , new york is /m/02_286, toronto is /m/0h7h6
     destination: "CUN.", // montreal is /m/052p7. , new york is /m/02_286. , toronto is /m/0h7h6.
     queryDate: `${yyyy}-${mm}-${dd}`, //YYYY-MM-DD
-    oneCarryOnBagAndCurrency: ";b:1;c:USD", // CAD is ;c:CAD , USD is ;c:USD
+    oneCarryOnBagAndCurrency: ";b:1;c:CAD", // CAD is ;c:CAD , USD is ;c:USD
     fareClass: ";e:1;so:1;sd:1;t:f;tt:o", // economy is ";e:1;so:1;sd:1;t:f;tt:o" , business is ";e:1;sc:b;so:1;sd:1;t:f;tt:o"
     fareClassDescription: "economy",
     destinationDescription: "Cancun",
@@ -371,7 +371,7 @@ var CUNtoYYC = {
     origin: "CUN.", // montreal is /m/052p7 , new york is /m/02_286, toronto is /m/0h7h6
     destination: "YYC.", // montreal is /m/052p7. , new york is /m/02_286. , toronto is /m/0h7h6.
     queryDate: `${yyyy}-${mm}-${dd}`, //YYYY-MM-DD
-    oneCarryOnBagAndCurrency: ";b:1;c:USD", // CAD is ;c:CAD , USD is ;c:USD
+    oneCarryOnBagAndCurrency: ";b:1;c:CAD", // CAD is ;c:CAD , USD is ;c:USD
     fareClass: ";e:1;so:1;sd:1;t:f;tt:o", // economy is ";e:1;so:1;sd:1;t:f;tt:o" , business is ";e:1;sc:b;so:1;sd:1;t:f;tt:o"
     fareClassDescription: "economy",
     destinationDescription: "Calgary",
@@ -383,7 +383,7 @@ var SEAtoCUN = {
     origin: "SEA.", // montreal is /m/052p7 , new york is /m/02_286, toronto is /m/0h7h6
     destination: "CUN.", // montreal is /m/052p7. , new york is /m/02_286. , toronto is /m/0h7h6.
     queryDate: `${yyyy}-${mm}-${dd}`, //YYYY-MM-DD
-    oneCarryOnBagAndCurrency: ";b:1;c:USD", // CAD is ;c:CAD , USD is ;c:USD
+    oneCarryOnBagAndCurrency: ";b:1;c:CAD", // CAD is ;c:CAD , USD is ;c:USD
     fareClass: ";e:1;so:1;sd:1;t:f;tt:o", // economy is ";e:1;so:1;sd:1;t:f;tt:o" , business is ";e:1;sc:b;so:1;sd:1;t:f;tt:o"
     fareClassDescription: "economy",
     destinationDescription: "Cancun",
@@ -395,7 +395,7 @@ var CUNtoSEA = {
     origin: "CUN.", // montreal is /m/052p7 , new york is /m/02_286, toronto is /m/0h7h6
     destination: "SEA.", // montreal is /m/052p7. , new york is /m/02_286. , toronto is /m/0h7h6.
     queryDate: `${yyyy}-${mm}-${dd}`, //YYYY-MM-DD
-    oneCarryOnBagAndCurrency: ";b:1;c:USD", // CAD is ;c:CAD , USD is ;c:USD
+    oneCarryOnBagAndCurrency: ";b:1;c:CAD", // CAD is ;c:CAD , USD is ;c:USD
     fareClass: ";e:1;so:1;sd:1;t:f;tt:o", // economy is ";e:1;so:1;sd:1;t:f;tt:o" , business is ";e:1;sc:b;so:1;sd:1;t:f;tt:o"
     fareClassDescription: "economy",
     destinationDescription: "Seattle",
@@ -407,7 +407,7 @@ var DTWtoCUN = {
     origin: "DTW.", // montreal is /m/052p7 , new york is /m/02_286, toronto is /m/0h7h6
     destination: "CUN.", // montreal is /m/052p7. , new york is /m/02_286. , toronto is /m/0h7h6.
     queryDate: `${yyyy}-${mm}-${dd}`, //YYYY-MM-DD
-    oneCarryOnBagAndCurrency: ";b:1;c:USD", // CAD is ;c:CAD , USD is ;c:USD
+    oneCarryOnBagAndCurrency: ";b:1;c:CAD", // CAD is ;c:CAD , USD is ;c:USD
     fareClass: ";e:1;so:1;sd:1;t:f;tt:o", // economy is ";e:1;so:1;sd:1;t:f;tt:o" , business is ";e:1;sc:b;so:1;sd:1;t:f;tt:o"
     fareClassDescription: "economy",
     destinationDescription: "Cancun",
@@ -419,7 +419,7 @@ var CUNtoDTW = {
     origin: "CUN.", // montreal is /m/052p7 , new york is /m/02_286, toronto is /m/0h7h6
     destination: "DTW.", // montreal is /m/052p7. , new york is /m/02_286. , toronto is /m/0h7h6.
     queryDate: `${yyyy}-${mm}-${dd}`, //YYYY-MM-DD
-    oneCarryOnBagAndCurrency: ";b:1;c:USD", // CAD is ;c:CAD , USD is ;c:USD
+    oneCarryOnBagAndCurrency: ";b:1;c:CAD", // CAD is ;c:CAD , USD is ;c:USD
     fareClass: ";e:1;so:1;sd:1;t:f;tt:o", // economy is ";e:1;so:1;sd:1;t:f;tt:o" , business is ";e:1;sc:b;so:1;sd:1;t:f;tt:o"
     fareClassDescription: "economy",
     destinationDescription: "Detroit",
@@ -431,7 +431,7 @@ var FATtoCUN = {
     origin: "FAT.", // montreal is /m/052p7 , new york is /m/02_286, toronto is /m/0h7h6
     destination: "CUN.", // montreal is /m/052p7. , new york is /m/02_286. , toronto is /m/0h7h6.
     queryDate: `${yyyy}-${mm}-${dd}`, //YYYY-MM-DD
-    oneCarryOnBagAndCurrency: ";b:1;c:USD", // CAD is ;c:CAD , USD is ;c:USD
+    oneCarryOnBagAndCurrency: ";b:1;c:CAD", // CAD is ;c:CAD , USD is ;c:USD
     fareClass: ";e:1;so:1;sd:1;t:f;tt:o", // economy is ";e:1;so:1;sd:1;t:f;tt:o" , business is ";e:1;sc:b;so:1;sd:1;t:f;tt:o"
     fareClassDescription: "economy",
     destinationDescription: "Cancun",
@@ -443,7 +443,7 @@ var CUNtoFAT = {
     origin: "CUN.", // montreal is /m/052p7 , new york is /m/02_286, toronto is /m/0h7h6
     destination: "FAT.", // montreal is /m/052p7. , new york is /m/02_286. , toronto is /m/0h7h6.
     queryDate: `${yyyy}-${mm}-${dd}`, //YYYY-MM-DD
-    oneCarryOnBagAndCurrency: ";b:1;c:USD", // CAD is ;c:CAD , USD is ;c:USD
+    oneCarryOnBagAndCurrency: ";b:1;c:CAD", // CAD is ;c:CAD , USD is ;c:USD
     fareClass: ";e:1;so:1;sd:1;t:f;tt:o", // economy is ";e:1;so:1;sd:1;t:f;tt:o" , business is ";e:1;sc:b;so:1;sd:1;t:f;tt:o"
     fareClassDescription: "economy",
     destinationDescription: "Fresno",
@@ -455,7 +455,7 @@ var IAHtoCUN = {
     origin: "IAH.", // montreal is /m/052p7 , new york is /m/02_286, toronto is /m/0h7h6
     destination: "CUN.", // montreal is /m/052p7. , new york is /m/02_286. , toronto is /m/0h7h6.
     queryDate: `${yyyy}-${mm}-${dd}`, //YYYY-MM-DD
-    oneCarryOnBagAndCurrency: ";b:1;c:USD", // CAD is ;c:CAD , USD is ;c:USD
+    oneCarryOnBagAndCurrency: ";b:1;c:CAD", // CAD is ;c:CAD , USD is ;c:USD
     fareClass: ";e:1;so:1;sd:1;t:f;tt:o", // economy is ";e:1;so:1;sd:1;t:f;tt:o" , business is ";e:1;sc:b;so:1;sd:1;t:f;tt:o"
     fareClassDescription: "economy",
     destinationDescription: "Cancun",
@@ -467,7 +467,7 @@ var CUNtoIAH = {
     origin: "CUN.", // montreal is /m/052p7 , new york is /m/02_286, toronto is /m/0h7h6
     destination: "IAH.", // montreal is /m/052p7. , new york is /m/02_286. , toronto is /m/0h7h6.
     queryDate: `${yyyy}-${mm}-${dd}`, //YYYY-MM-DD
-    oneCarryOnBagAndCurrency: ";b:1;c:USD", // CAD is ;c:CAD , USD is ;c:USD
+    oneCarryOnBagAndCurrency: ";b:1;c:CAD", // CAD is ;c:CAD , USD is ;c:USD
     fareClass: ";e:1;so:1;sd:1;t:f;tt:o", // economy is ";e:1;so:1;sd:1;t:f;tt:o" , business is ";e:1;sc:b;so:1;sd:1;t:f;tt:o"
     fareClassDescription: "economy",
     destinationDescription: "Houston",
@@ -479,7 +479,7 @@ var LAStoCUN = {
     origin: "LAS.", // montreal is /m/052p7 , new york is /m/02_286, toronto is /m/0h7h6
     destination: "CUN.", // montreal is /m/052p7. , new york is /m/02_286. , toronto is /m/0h7h6.
     queryDate: `${yyyy}-${mm}-${dd}`, //YYYY-MM-DD
-    oneCarryOnBagAndCurrency: ";b:1;c:USD", // CAD is ;c:CAD , USD is ;c:USD
+    oneCarryOnBagAndCurrency: ";b:1;c:CAD", // CAD is ;c:CAD , USD is ;c:USD
     fareClass: ";e:1;so:1;sd:1;t:f;tt:o", // economy is ";e:1;so:1;sd:1;t:f;tt:o" , business is ";e:1;sc:b;so:1;sd:1;t:f;tt:o"
     fareClassDescription: "economy",
     destinationDescription: "Cancun",
@@ -491,7 +491,7 @@ var CUNtoLAS = {
     origin: "CUN.", // montreal is /m/052p7 , new york is /m/02_286, toronto is /m/0h7h6
     destination: "LAS.", // montreal is /m/052p7. , new york is /m/02_286. , toronto is /m/0h7h6.
     queryDate: `${yyyy}-${mm}-${dd}`, //YYYY-MM-DD
-    oneCarryOnBagAndCurrency: ";b:1;c:USD", // CAD is ;c:CAD , USD is ;c:USD
+    oneCarryOnBagAndCurrency: ";b:1;c:CAD", // CAD is ;c:CAD , USD is ;c:USD
     fareClass: ";e:1;so:1;sd:1;t:f;tt:o", // economy is ";e:1;so:1;sd:1;t:f;tt:o" , business is ";e:1;sc:b;so:1;sd:1;t:f;tt:o"
     fareClassDescription: "economy",
     destinationDescription: "Las Vegas",
@@ -503,7 +503,7 @@ var MIAtoCUN = {
     origin: "MIA.", // montreal is /m/052p7 , new york is /m/02_286, toronto is /m/0h7h6
     destination: "CUN.", // montreal is /m/052p7. , new york is /m/02_286. , toronto is /m/0h7h6.
     queryDate: `${yyyy}-${mm}-${dd}`, //YYYY-MM-DD
-    oneCarryOnBagAndCurrency: ";b:1;c:USD", // CAD is ;c:CAD , USD is ;c:USD
+    oneCarryOnBagAndCurrency: ";b:1;c:CAD", // CAD is ;c:CAD , USD is ;c:USD
     fareClass: ";e:1;so:1;sd:1;t:f;tt:o", // economy is ";e:1;so:1;sd:1;t:f;tt:o" , business is ";e:1;sc:b;so:1;sd:1;t:f;tt:o"
     fareClassDescription: "economy",
     destinationDescription: "Cancun",
@@ -515,7 +515,7 @@ var CUNtoMIA = {
     origin: "CUN.", // montreal is /m/052p7 , new york is /m/02_286, toronto is /m/0h7h6
     destination: "MIA.", // montreal is /m/052p7. , new york is /m/02_286. , toronto is /m/0h7h6.
     queryDate: `${yyyy}-${mm}-${dd}`, //YYYY-MM-DD
-    oneCarryOnBagAndCurrency: ";b:1;c:USD", // CAD is ;c:CAD , USD is ;c:USD
+    oneCarryOnBagAndCurrency: ";b:1;c:CAD", // CAD is ;c:CAD , USD is ;c:USD
     fareClass: ";e:1;so:1;sd:1;t:f;tt:o", // economy is ";e:1;so:1;sd:1;t:f;tt:o" , business is ";e:1;sc:b;so:1;sd:1;t:f;tt:o"
     fareClassDescription: "economy",
     destinationDescription: "Miami",
@@ -527,7 +527,7 @@ var MCOtoCUN = {
     origin: "MCO.", // montreal is /m/052p7 , new york is /m/02_286, toronto is /m/0h7h6
     destination: "CUN.", // montreal is /m/052p7. , new york is /m/02_286. , toronto is /m/0h7h6.
     queryDate: `${yyyy}-${mm}-${dd}`, //YYYY-MM-DD
-    oneCarryOnBagAndCurrency: ";b:1;c:USD", // CAD is ;c:CAD , USD is ;c:USD
+    oneCarryOnBagAndCurrency: ";b:1;c:CAD", // CAD is ;c:CAD , USD is ;c:USD
     fareClass: ";e:1;so:1;sd:1;t:f;tt:o", // economy is ";e:1;so:1;sd:1;t:f;tt:o" , business is ";e:1;sc:b;so:1;sd:1;t:f;tt:o"
     fareClassDescription: "economy",
     destinationDescription: "Cancun",
@@ -539,7 +539,7 @@ var CUNtoMCO = {
     origin: "CUN.", // montreal is /m/052p7 , new york is /m/02_286, toronto is /m/0h7h6
     destination: "MCO.", // montreal is /m/052p7. , new york is /m/02_286. , toronto is /m/0h7h6.
     queryDate: `${yyyy}-${mm}-${dd}`, //YYYY-MM-DD
-    oneCarryOnBagAndCurrency: ";b:1;c:USD", // CAD is ;c:CAD , USD is ;c:USD
+    oneCarryOnBagAndCurrency: ";b:1;c:CAD", // CAD is ;c:CAD , USD is ;c:USD
     fareClass: ";e:1;so:1;sd:1;t:f;tt:o", // economy is ";e:1;so:1;sd:1;t:f;tt:o" , business is ";e:1;sc:b;so:1;sd:1;t:f;tt:o"
     fareClassDescription: "economy",
     destinationDescription: "Orlando",
@@ -551,7 +551,7 @@ var SMFtoCUN = {
     origin: "SMF.", // montreal is /m/052p7 , new york is /m/02_286, toronto is /m/0h7h6
     destination: "CUN.", // montreal is /m/052p7. , new york is /m/02_286. , toronto is /m/0h7h6.
     queryDate: `${yyyy}-${mm}-${dd}`, //YYYY-MM-DD
-    oneCarryOnBagAndCurrency: ";b:1;c:USD", // CAD is ;c:CAD , USD is ;c:USD
+    oneCarryOnBagAndCurrency: ";b:1;c:CAD", // CAD is ;c:CAD , USD is ;c:USD
     fareClass: ";e:1;so:1;sd:1;t:f;tt:o", // economy is ";e:1;so:1;sd:1;t:f;tt:o" , business is ";e:1;sc:b;so:1;sd:1;t:f;tt:o"
     fareClassDescription: "economy",
     destinationDescription: "Cancun",
@@ -563,7 +563,7 @@ var CUNtoSMF = {
     origin: "CUN.", // montreal is /m/052p7 , new york is /m/02_286, toronto is /m/0h7h6
     destination: "SMF.", // montreal is /m/052p7. , new york is /m/02_286. , toronto is /m/0h7h6.
     queryDate: `${yyyy}-${mm}-${dd}`, //YYYY-MM-DD
-    oneCarryOnBagAndCurrency: ";b:1;c:USD", // CAD is ;c:CAD , USD is ;c:USD
+    oneCarryOnBagAndCurrency: ";b:1;c:CAD", // CAD is ;c:CAD , USD is ;c:USD
     fareClass: ";e:1;so:1;sd:1;t:f;tt:o", // economy is ";e:1;so:1;sd:1;t:f;tt:o" , business is ";e:1;sc:b;so:1;sd:1;t:f;tt:o"
     fareClassDescription: "economy",
     destinationDescription: "Sacramento",
@@ -575,7 +575,7 @@ var SLCtoCUN = {
     origin: "SLC.", // montreal is /m/052p7 , new york is /m/02_286, toronto is /m/0h7h6
     destination: "CUN.", // montreal is /m/052p7. , new york is /m/02_286. , toronto is /m/0h7h6.
     queryDate: `${yyyy}-${mm}-${dd}`, //YYYY-MM-DD
-    oneCarryOnBagAndCurrency: ";b:1;c:USD", // CAD is ;c:CAD , USD is ;c:USD
+    oneCarryOnBagAndCurrency: ";b:1;c:CAD", // CAD is ;c:CAD , USD is ;c:USD
     fareClass: ";e:1;so:1;sd:1;t:f;tt:o", // economy is ";e:1;so:1;sd:1;t:f;tt:o" , business is ";e:1;sc:b;so:1;sd:1;t:f;tt:o"
     fareClassDescription: "economy",
     destinationDescription: "Cancun",
@@ -587,7 +587,7 @@ var CUNtoSLC = {
     origin: "CUN.", // montreal is /m/052p7 , new york is /m/02_286, toronto is /m/0h7h6
     destination: "SLC.", // montreal is /m/052p7. , new york is /m/02_286. , toronto is /m/0h7h6.
     queryDate: `${yyyy}-${mm}-${dd}`, //YYYY-MM-DD
-    oneCarryOnBagAndCurrency: ";b:1;c:USD", // CAD is ;c:CAD , USD is ;c:USD
+    oneCarryOnBagAndCurrency: ";b:1;c:CAD", // CAD is ;c:CAD , USD is ;c:USD
     fareClass: ";e:1;so:1;sd:1;t:f;tt:o", // economy is ";e:1;so:1;sd:1;t:f;tt:o" , business is ";e:1;sc:b;so:1;sd:1;t:f;tt:o"
     fareClassDescription: "economy",
     destinationDescription: "Salt Lake City",
@@ -599,7 +599,7 @@ var SATtoCUN = {
     origin: "SAT.", // montreal is /m/052p7 , new york is /m/02_286, toronto is /m/0h7h6
     destination: "CUN.", // montreal is /m/052p7. , new york is /m/02_286. , toronto is /m/0h7h6.
     queryDate: `${yyyy}-${mm}-${dd}`, //YYYY-MM-DD
-    oneCarryOnBagAndCurrency: ";b:1;c:USD", // CAD is ;c:CAD , USD is ;c:USD
+    oneCarryOnBagAndCurrency: ";b:1;c:CAD", // CAD is ;c:CAD , USD is ;c:USD
     fareClass: ";e:1;so:1;sd:1;t:f;tt:o", // economy is ";e:1;so:1;sd:1;t:f;tt:o" , business is ";e:1;sc:b;so:1;sd:1;t:f;tt:o"
     fareClassDescription: "economy",
     destinationDescription: "Cancun",
@@ -611,7 +611,7 @@ var CUNtoSAT = {
     origin: "CUN.", // montreal is /m/052p7 , new york is /m/02_286, toronto is /m/0h7h6
     destination: "SAT.", // montreal is /m/052p7. , new york is /m/02_286. , toronto is /m/0h7h6.
     queryDate: `${yyyy}-${mm}-${dd}`, //YYYY-MM-DD
-    oneCarryOnBagAndCurrency: ";b:1;c:USD", // CAD is ;c:CAD , USD is ;c:USD
+    oneCarryOnBagAndCurrency: ";b:1;c:CAD", // CAD is ;c:CAD , USD is ;c:USD
     fareClass: ";e:1;so:1;sd:1;t:f;tt:o", // economy is ";e:1;so:1;sd:1;t:f;tt:o" , business is ";e:1;sc:b;so:1;sd:1;t:f;tt:o"
     fareClassDescription: "economy",
     destinationDescription: "San Antonio",
@@ -623,7 +623,7 @@ var SFOtoCUN = {
     origin: "SFO.", // montreal is /m/052p7 , new york is /m/02_286, toronto is /m/0h7h6
     destination: "CUN.", // montreal is /m/052p7. , new york is /m/02_286. , toronto is /m/0h7h6.
     queryDate: `${yyyy}-${mm}-${dd}`, //YYYY-MM-DD
-    oneCarryOnBagAndCurrency: ";b:1;c:USD", // CAD is ;c:CAD , USD is ;c:USD
+    oneCarryOnBagAndCurrency: ";b:1;c:CAD", // CAD is ;c:CAD , USD is ;c:USD
     fareClass: ";e:1;so:1;sd:1;t:f;tt:o", // economy is ";e:1;so:1;sd:1;t:f;tt:o" , business is ";e:1;sc:b;so:1;sd:1;t:f;tt:o"
     fareClassDescription: "economy",
     destinationDescription: "Cancun",
@@ -635,7 +635,7 @@ var CUNtoSFO = {
     origin: "CUN.", // montreal is /m/052p7 , new york is /m/02_286, toronto is /m/0h7h6
     destination: "SFO.", // montreal is /m/052p7. , new york is /m/02_286. , toronto is /m/0h7h6.
     queryDate: `${yyyy}-${mm}-${dd}`, //YYYY-MM-DD
-    oneCarryOnBagAndCurrency: ";b:1;c:USD", // CAD is ;c:CAD , USD is ;c:USD
+    oneCarryOnBagAndCurrency: ";b:1;c:CAD", // CAD is ;c:CAD , USD is ;c:USD
     fareClass: ";e:1;so:1;sd:1;t:f;tt:o", // economy is ";e:1;so:1;sd:1;t:f;tt:o" , business is ";e:1;sc:b;so:1;sd:1;t:f;tt:o"
     fareClassDescription: "economy",
     destinationDescription: "San Francisco",
@@ -647,7 +647,7 @@ var AUStoCUN = {
     origin: "AUS.", // montreal is /m/052p7 , new york is /m/02_286, toronto is /m/0h7h6
     destination: "CUN.", // montreal is /m/052p7. , new york is /m/02_286. , toronto is /m/0h7h6.
     queryDate: `${yyyy}-${mm}-${dd}`, //YYYY-MM-DD
-    oneCarryOnBagAndCurrency: ";b:1;c:USD", // CAD is ;c:CAD , USD is ;c:USD
+    oneCarryOnBagAndCurrency: ";b:1;c:CAD", // CAD is ;c:CAD , USD is ;c:USD
     fareClass: ";e:1;so:1;sd:1;t:f;tt:o", // economy is ";e:1;so:1;sd:1;t:f;tt:o" , business is ";e:1;sc:b;so:1;sd:1;t:f;tt:o"
     fareClassDescription: "economy",
     destinationDescription: "Cancun",
@@ -659,7 +659,7 @@ var CUNtoAUS = {
     origin: "CUN.", // montreal is /m/052p7 , new york is /m/02_286, toronto is /m/0h7h6
     destination: "AUS.", // montreal is /m/052p7. , new york is /m/02_286. , toronto is /m/0h7h6.
     queryDate: `${yyyy}-${mm}-${dd}`, //YYYY-MM-DD
-    oneCarryOnBagAndCurrency: ";b:1;c:USD", // CAD is ;c:CAD , USD is ;c:USD
+    oneCarryOnBagAndCurrency: ";b:1;c:CAD", // CAD is ;c:CAD , USD is ;c:USD
     fareClass: ";e:1;so:1;sd:1;t:f;tt:o", // economy is ";e:1;so:1;sd:1;t:f;tt:o" , business is ";e:1;sc:b;so:1;sd:1;t:f;tt:o"
     fareClassDescription: "economy",
     destinationDescription: "Austin",
@@ -997,27 +997,27 @@ async function getFlights() {
         case 43:
             return loop.mainLoop(CUNtoMCO);
         case 44:
-            return loop.mainLoop(SMFtoCUN);
-        case 45:
-            return loop.mainLoop(CUNtoSMF);
-        case 46:
-            return loop.mainLoop(SLCtoCUN);
-        case 47:
-            return loop.mainLoop(CUNtoSLC);
-        case 48:
-            return loop.mainLoop(SATtoCUN);
-        case 49:
-            return loop.mainLoop(CUNtoSAT);
-        case 50:
-            return loop.mainLoop(SFOtoCUN);
-        case 51:
-            return loop.mainLoop(CUNtoSFO);
-        case 52:
-            return loop.mainLoop(AUStoCUN);
-        case 53:
-            return loop.mainLoop(CUNtoAUS);
-        case 54:
             return loop.mainLoop(CUNtoMCO);
+        case 45:
+            return loop.mainLoop(SMFtoCUN);
+        case 46:
+            return loop.mainLoop(CUNtoSMF);
+        case 47:
+            return loop.mainLoop(SLCtoCUN);
+        case 48:
+            return loop.mainLoop(CUNtoSLC);
+        case 49:
+            return loop.mainLoop(SATtoCUN);
+        case 50:
+            return loop.mainLoop(CUNtoSAT);
+        case 51:
+            return loop.mainLoop(SFOtoCUN);
+        case 52:
+            return loop.mainLoop(CUNtoSFO);
+        case 53:
+            return loop.mainLoop(AUStoCUN);
+        case 54:
+            return loop.mainLoop(CUNtoAUS);
         default:
             return true;
     }
