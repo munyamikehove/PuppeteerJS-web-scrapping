@@ -1,3 +1,5 @@
+// Microservice to harvest fare and itinerary data from google flights using puppeteer
+
 /*jshint esversion: 8 */
 const admin = require("firebase-admin");
 const puppeteer = require('puppeteer');
@@ -7,7 +9,7 @@ var serviceAccount = require("./serviceAccountKey.json");
 
 admin.initializeApp({
     credential: admin.credential.cert(serviceAccount),
-    databaseURL: "https://zerojet-85661.firebaseio.com"
+    databaseURL: "https://zerojet.firebaseio.com"
 });
 
 var db = admin.database();
